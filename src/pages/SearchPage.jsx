@@ -4,10 +4,12 @@ import { loadSchoolsArray, loadScoreFile, loadMajorList } from '../lib/dataLoade
 import { categorizeMajor, ALL_CATEGORIES } from '../lib/majorCategories.js'
 import SchoolTable from '../components/SchoolTable.jsx'
 import Skeleton from '../components/Skeleton.jsx'
+import Pagination from '../components/Pagination.jsx'
 
 const LEVELS = ['985/211', '双一流', '211', '普通本科']
 const TYPES = ['综合', '理工', '师范', '医药', '财经', '政法', '农林', '艺术', '语言', '民族']
 const YEAR_OPTS = [2021, 2022, 2023, 2024, 2025]
+const PAGE_SIZE = 30
 
 export default function SearchPage({ onOpenSchool }) {
   const [schoolsArr, setSchoolsArr] = useState(null)
@@ -22,6 +24,7 @@ export default function SearchPage({ onOpenSchool }) {
   const [year, setYear] = useState(2024)
   const [scoreRecords, setScoreRecords] = useState(null)
   const [majorList, setMajorList] = useState(null)
+  const [page, setPage] = useState(1)
 
   useEffect(() => {
     loadSchoolsArray().then(arr => {
@@ -57,6 +60,9 @@ export default function SearchPage({ onOpenSchool }) {
   }, [majorList, fCategory])
 
   const selectCategory = (v) => { setFCategory(v); setFMajor('') }  // 切换大类时清空专业
+
+  // 筛选条件变化时重置到第一页
+  useEffect(() => { setPage(1) }, [kw, fProvince, fLevel, fType, fCategory, fMajor, subject, year])
 
   // 是否进入专业维度筛选模式
   const majorMode = !!(fCategory || fMajor)
@@ -120,8 +126,9 @@ export default function SearchPage({ onOpenSchool }) {
       ]
 
   const rows = majorMode ? majorRows : schoolRows
-  const rowLimit = 200
-  const displayRows = majorMode ? rows.slice(0, rowLimit) : rows
+  const totalPages = Math.ceil(rows.length / PAGE_SIZE)
+  const currentPage = Math.min(page, totalPages || 1)
+  const displayRows = rows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
   return (
     <div>
@@ -155,7 +162,7 @@ export default function SearchPage({ onOpenSchool }) {
         </div>
         {majorMode && (
           <div style={{ marginTop: 'var(--sp-3)', fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)' }}>
-            已进入专业筛选模式，共匹配 {rows.length} 条{rows.length > rowLimit ? `（显示前 ${rowLimit} 条，请细化筛选条件）` : ''}
+            已进入专业筛选模式，共匹配 {rows.length} 条
           </div>
         )}
       </div>
@@ -168,6 +175,9 @@ export default function SearchPage({ onOpenSchool }) {
         <div style={{ background: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
           <SchoolTable rows={displayRows} columns={columns} onRowClick={r => onOpenSchool(r.id)} emptyText="没有符合条件的记录" />
         </div>
+        {rows.length > 0 && (
+          <Pagination total={rows.length} page={currentPage} pageSize={PAGE_SIZE} onChange={setPage} />
+        )}
       )}
     </div>
   )

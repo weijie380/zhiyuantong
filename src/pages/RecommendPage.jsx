@@ -4,6 +4,7 @@ import { recommend, aggregateRecords } from '../lib/recommend.js'
 import { favorites } from '../lib/storage.js'
 import SchoolCard from '../components/SchoolCard.jsx'
 import Skeleton from '../components/Skeleton.jsx'
+import Pagination from '../components/Pagination.jsx'
 
 const YEARS = [2021, 2022, 2023, 2024, 2025]
 const TABS = [
@@ -28,13 +29,13 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const [majorFilter, setMajorFilter] = useState('')
   const [loading, setLoading] = useState(false)
   const [favVersion, setFavVersion] = useState(0)
-  const [limit, setLimit] = useState(50)
-  const PAGE_SIZE = 50
+  const [page, setPage] = useState(1)
+  const PAGE_SIZE = 20
 
   const onGenerate = async () => {
     const userRank = Number(rank)
     if (!userRank || userRank <= 0) return
-    setLoading(true); setResult(null); setLimit(PAGE_SIZE)
+    setLoading(true); setResult(null); setPage(1)
     try {
       const schoolsMap = await loadSchools()
       const flatRecords = await loadMultiYear(subject, YEARS)
@@ -56,9 +57,11 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const filteredItems = majorFilter.trim()
     ? items.filter(it => it.major.includes(majorFilter.trim()))
     : items
-  const visibleItems = filteredItems.slice(0, limit)
+  const totalPages = Math.ceil(filteredItems.length / PAGE_SIZE)
+  const currentPage = Math.min(page, totalPages || 1)
+  const visibleItems = filteredItems.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
-  const switchTab = (t) => { setTab(t); setLimit(PAGE_SIZE) }
+  const switchTab = (t) => { setTab(t); setPage(1) }
 
   return (
     <div>
@@ -124,7 +127,7 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
       {/* 专业筛选 */}
       {result && (
         <div style={{ marginBottom: 'var(--sp-3)', display: 'flex', alignItems: 'center', gap: 'var(--sp-2)' }}>
-          <input value={majorFilter} onChange={e => { setMajorFilter(e.target.value); setLimit(PAGE_SIZE) }}
+          <input value={majorFilter} onChange={e => { setMajorFilter(e.target.value); setPage(1) }}
             placeholder="按专业筛选，如 计算机 / 电子 / 临床"
             style={{ flex: 1, maxWidth: 360, padding: 'var(--sp-2) var(--sp-3)',
               border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }} />
@@ -152,15 +155,8 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
           isFav={favorites.has(item.school.id, item.major)}
           onToggleFav={toggleFav} onView={onOpenSchool} />
       ))}
-      {!loading && filteredItems.length > limit && (
-        <div style={{ textAlign: 'center', padding: 'var(--sp-4)' }}>
-          <button onClick={() => setLimit(l => l + PAGE_SIZE)}
-            style={{ background: 'var(--color-card)', color: 'var(--color-secondary)',
-              border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)',
-              padding: 'var(--sp-2) var(--sp-6)' }}>
-            加载更多（剩余 {filteredItems.length - limit} 条）
-          </button>
-        </div>
+      {!loading && filteredItems.length > 0 && (
+        <Pagination total={filteredItems.length} page={currentPage} pageSize={PAGE_SIZE} onChange={setPage} />
       )}
     </div>
   )
