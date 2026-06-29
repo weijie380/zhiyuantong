@@ -6,6 +6,7 @@ import SearchPage from './pages/SearchPage.jsx'
 import SchoolDetailPage from './pages/SchoolDetailPage.jsx'
 import FavoritesPage from './pages/FavoritesPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
+import BackToTop from './components/BackToTop.jsx'
 import { auth } from './lib/auth.js'
 import { userInput } from './lib/storage.js'
 
@@ -90,6 +91,7 @@ export default function App() {
           </button>
         </div>
         {renderPage()}
+        <BackToTop />
       </main>
     </div>
   )

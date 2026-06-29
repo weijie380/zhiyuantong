@@ -12,6 +12,8 @@ export default function Sidebar({ active, onNavigate, user, onLogout }) {
       width: 200, flexShrink: 0, background: 'var(--color-card)',
       borderRight: '1px solid var(--color-border)', padding: 'var(--sp-4)',
       display: 'flex', flexDirection: 'column', gap: 'var(--sp-2)',
+      position: 'sticky', top: 0, alignSelf: 'flex-start',
+      maxHeight: '100dvh', overflowY: 'auto',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--sp-2)',
         fontWeight: 700, fontSize: 'var(--fs-18)', marginBottom: 'var(--sp-4)', color: 'var(--color-primary)' }}>
