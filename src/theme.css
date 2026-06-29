@@ -1,0 +1,61 @@
+:root {
+  /* 配色 — 明色模式 */
+  --color-primary: #1E3A5F;
+  --color-on-primary: #FFFFFF;
+  --color-secondary: #2563EB;
+  --color-accent: #059669;
+  --color-on-accent: #FFFFFF;
+  --color-background: #F8FAFC;
+  --color-foreground: #0F172A;
+  --color-card: #FFFFFF;
+  --color-muted: #F1F3F5;
+  --color-muted-foreground: #64748B;
+  --color-border: #E4E7EB;
+  --color-ring: #1E3A5F;
+
+  /* 梯度色 */
+  --color-reach: #DC2626;       /* 冲 - 红 */
+  --color-reach-bg: #FEF2F2;
+  --color-stable: #059669;      /* 稳 - 绿 */
+  --color-stable-bg: #ECFDF5;
+  --color-safe: #2563EB;        /* 保 - 蓝 */
+  --color-safe-bg: #EFF6FF;
+
+  --color-destructive: #DC2626;
+
+  /* 字号阶梯 */
+  --fs-12: 12px; --fs-14: 14px; --fs-15: 15px;
+  --fs-18: 18px; --fs-24: 24px; --fs-32: 32px;
+
+  /* 间距节奏 4/8 */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-6: 24px; --sp-8: 32px; --sp-12: 48px;
+
+  /* 圆角 */
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 14px;
+
+  /* 动效 */
+  --dur-fast: 150ms; --dur-mid: 250ms; --ease: ease-out;
+}
+
+[data-theme="dark"] {
+  --color-primary: #3B5A85;
+  --color-on-primary: #FFFFFF;
+  --color-secondary: #3B82F6;
+  --color-accent: #10B981;
+  --color-on-accent: #FFFFFF;
+  --color-background: #0F172A;
+  --color-foreground: #F1F5F9;
+  --color-card: #1E293B;
+  --color-muted: #334155;
+  --color-muted-foreground: #94A3B8;
+  --color-border: #334155;
+  --color-ring: #3B5A85;
+
+  --color-reach: #F87171;
+  --color-reach-bg: #450A0A;
+  --color-stable: #34D399;
+  --color-stable-bg: #022C22;
+  --color-safe: #60A5FA;
+  --color-safe-bg: #172554;
+}
