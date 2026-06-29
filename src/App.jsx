@@ -11,9 +11,6 @@ export default function App() {
   const [detailId, setDetailId] = useState(null)
   const [theme, setTheme] = useState('light')
 
-  // 推荐页状态持久化在 App 层，跨页面切换不丢失
-  const [recState, setRecState] = useState({ subject: 'physics', rank: '', result: null, tab: 'reach' })
-
   useEffect(() => {
     const saved = localStorage.getItem('zyt_theme')
     if (saved) setTheme(saved)
@@ -27,22 +24,17 @@ export default function App() {
 
   const openSchool = (id) => { setDetailId(id); setPage('detail') }
 
-  const renderPage = () => {
-    switch (page) {
-      case 'detail':
-        return detailId ? <SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /> : null
-      case 'search':
-        return <SearchPage onOpenSchool={openSchool} />
-      case 'favorites':
-        return <FavoritesPage onOpenSchool={openSchool} />
-      default:
-        return <RecommendPage savedState={recState} onStateChange={setRecState} onOpenSchool={openSchool} />
-    }
+  const isVisible = (p) => {
+    if (p === 'detail') return page === 'detail' && !!detailId
+    return page === p
   }
+  const visibility = (p) => isVisible(p) ? undefined : 'none'
+
+  const activeNav = page === 'detail' ? 'recommend' : page
 
   return (
     <div style={{ display: 'flex', minHeight: '100dvh', background: 'var(--color-background)' }}>
-      <Sidebar active={page === 'detail' ? 'recommend' : page} onNavigate={setPage} />
+      <Sidebar active={activeNav} onNavigate={setPage} />
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: 'var(--sp-6)', minWidth: 0 }}>
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 'var(--sp-4)' }}>
           <button onClick={() => setTheme(t => t === 'light' ? 'dark' : 'light')}
@@ -53,7 +45,10 @@ export default function App() {
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
         </div>
-        {renderPage()}
+        <div style={{ visibility: visibility('recommend') }}><RecommendPage onOpenSchool={openSchool} /></div>
+        <div style={{ visibility: visibility('detail') }}><SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /></div>
+        <div style={{ visibility: visibility('search') }}><SearchPage onOpenSchool={openSchool} /></div>
+        <div style={{ visibility: visibility('favorites') }}><FavoritesPage onOpenSchool={openSchool} /></div>
       </main>
     </div>
   )
