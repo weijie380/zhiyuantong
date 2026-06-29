@@ -20,10 +20,10 @@ const TAB_BG = {
 
 export default function RecommendPage({ savedState, onStateChange, onOpenSchool }) {
   const { subject, rank, result, tab } = savedState
-  const setSubject = (v) => onStateChange({ ...savedState, subject: v })
-  const setRank = (v) => onStateChange({ ...savedState, rank: v })
-  const setResult = (v) => onStateChange({ ...savedState, result: v })
-  const setTab = (v) => onStateChange({ ...savedState, tab: v })
+  const setSubject = (v) => onStateChange(prev => ({ ...prev, subject: v }))
+  const setRank = (v) => onStateChange(prev => ({ ...prev, rank: v }))
+  const setResult = (v) => onStateChange(prev => ({ ...prev, result: v }))
+  const setTab = (v) => onStateChange(prev => ({ ...prev, tab: v }))
   // 以下状态不需要跨页面持久化
   const [loading, setLoading] = useState(false)
   const [favVersion, setFavVersion] = useState(0)
@@ -38,6 +38,8 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
       const records5y = aggregateRecords(flatRecords)
       const res = recommend({ userRank, subject, records5y, schools: schoolsMap })
       setResult(res); setTab('reach')
+    } catch (e) {
+      console.error('生成方案失败:', e)
     } finally { setLoading(false) }
   }
 
