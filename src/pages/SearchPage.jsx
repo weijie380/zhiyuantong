@@ -172,12 +172,14 @@ export default function SearchPage({ onOpenSchool }) {
           {[0,1,2,3,4].map(i => <Skeleton key={i} height={36} />)}
         </div>
       ) : (
-        <div style={{ background: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
-          <SchoolTable rows={displayRows} columns={columns} onRowClick={r => onOpenSchool(r.id)} emptyText="没有符合条件的记录" />
-        </div>
-        {rows.length > 0 && (
-          <Pagination total={rows.length} page={currentPage} pageSize={PAGE_SIZE} onChange={setPage} />
-        )}
+        <>
+          <div style={{ background: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
+            <SchoolTable rows={displayRows} columns={columns} onRowClick={r => onOpenSchool(r.id)} emptyText="没有符合条件的记录" />
+          </div>
+          {rows.length > 0 && (
+            <Pagination total={rows.length} page={currentPage} pageSize={PAGE_SIZE} onChange={setPage} />
+          )}
+        </>
       )}
     </div>
   )
