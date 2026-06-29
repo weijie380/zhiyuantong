@@ -8,6 +8,8 @@ import Skeleton from '../components/Skeleton.jsx'
 
 export default function SchoolDetailPage({ schoolId, onBack }) {
   const [school, setSchool] = useState(null)
+
+  if (!schoolId) return null
   const [subject, setSubject] = useState('physics')
   const [year, setYear] = useState(2024)
   const [records, setRecords] = useState(null)

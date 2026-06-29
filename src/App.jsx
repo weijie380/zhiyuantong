@@ -24,17 +24,12 @@ export default function App() {
 
   const openSchool = (id) => { setDetailId(id); setPage('detail') }
 
-  const renderPage = () => {
-    if (page === 'detail' && detailId)
-      return <SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} />
-    if (page === 'search') return <SearchPage onOpenSchool={openSchool} />
-    if (page === 'favorites') return <FavoritesPage onOpenSchool={openSchool} />
-    return <RecommendPage onOpenSchool={openSchool} />
-  }
+  const isDetail = page === 'detail' && detailId
+  const show = (p) => ({ display: page === p || (p === 'recommend' && isDetail) ? undefined : 'none' })
 
   return (
     <div style={{ display: 'flex', minHeight: '100dvh', background: 'var(--color-background)' }}>
-      <Sidebar active={page === 'detail' ? 'recommend' : page} onNavigate={setPage} />
+      <Sidebar active={isDetail ? 'recommend' : page} onNavigate={setPage} />
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: 'var(--sp-6)', minWidth: 0 }}>
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 'var(--sp-4)' }}>
           <button onClick={() => setTheme(t => t === 'light' ? 'dark' : 'light')}
@@ -45,7 +40,10 @@ export default function App() {
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
         </div>
-        {renderPage()}
+        <div style={show('recommend')}><RecommendPage onOpenSchool={openSchool} /></div>
+        <div style={show('detail')}><SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /></div>
+        <div style={show('search')}><SearchPage onOpenSchool={openSchool} /></div>
+        <div style={show('favorites')}><FavoritesPage onOpenSchool={openSchool} /></div>
       </main>
     </div>
   )
