@@ -81,14 +81,12 @@ export default function App() {
   }
 
   return (
-    <div style={{ display: 'flex', minHeight: '100dvh', background: 'var(--color-background)' }}>
+    <div className="app-layout">
       <Sidebar active={activeNav} onNavigate={setPage} user={user} onLogout={onLogout} />
-      <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: 'var(--sp-6)', minWidth: 0 }}>
+      <main className="app-main">
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 'var(--sp-4)' }}>
           <button onClick={() => setTheme(t => t === 'light' ? 'dark' : 'light')}
-            style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-              background: 'var(--color-card)', border: '1px solid var(--color-border)',
-              borderRadius: 'var(--radius-sm)', width: 36, height: 36, padding: 0, minHeight: 36 }}
+            className="theme-toggle"
             title={theme === 'light' ? '切换暗色模式' : '切换亮色模式'}>
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
