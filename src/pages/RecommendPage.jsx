@@ -70,6 +70,8 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const majorOptions = majorList && fCategory ? (majorList[fCategory] || []) : []
   const selectCategory = (v) => { setFCategory(v); setFMajor(''); setPage(1) }
 
+  const items = result ? result[tab] : []
+
   // 从推荐结果中提取去重的省份列表
   const provinces = useMemo(() => {
     if (!items.length) return []
@@ -78,7 +80,6 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
     return [...s].sort()
   }, [items])
 
-  const items = result ? result[tab] : []
   const filteredItems = items.filter(it => {
     if (fProvince && (it.school.province || '') !== fProvince) return false
     if (fLevel && (it.school.level || '') !== fLevel) return false
