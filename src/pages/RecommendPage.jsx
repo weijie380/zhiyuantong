@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import { loadSchools, loadMultiYear } from '../lib/dataLoader.js'
+import { useState, useEffect, useMemo } from 'react'
+import { loadSchools, loadMultiYear, loadMajorList } from '../lib/dataLoader.js'
 import { recommend, aggregateRecords } from '../lib/recommend.js'
 import { favorites } from '../lib/storage.js'
+import { categorizeMajor, ALL_CATEGORIES } from '../lib/majorCategories.js'
 import SchoolCard from '../components/SchoolCard.jsx'
 import Skeleton from '../components/Skeleton.jsx'
 import Pagination from '../components/Pagination.jsx'
@@ -26,11 +27,23 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const setResult = (v) => onStateChange(prev => ({ ...prev, result: v }))
   const setTab = (v) => onStateChange(prev => ({ ...prev, tab: v }))
   // 以下状态不跨页面持久化
-  const [majorFilter, setMajorFilter] = useState('')
+  const [fProvince, setFProvince] = useState('')
+  const [fLevel, setFLevel] = useState('')
+  const [fType, setFType] = useState('')
+  const [fCategory, setFCategory] = useState('')
+  const [fMajor, setFMajor] = useState('')
+  const [majorList, setMajorList] = useState(null)
   const [loading, setLoading] = useState(false)
   const [favVersion, setFavVersion] = useState(0)
   const [page, setPage] = useState(1)
   const PAGE_SIZE = 20
+
+  // 加载专业列表（在结果可用时才加载）
+  useEffect(() => {
+    if (result && !majorList) {
+      loadMajorList().then(setMajorList).catch(() => setMajorList({}))
+    }
+  }, [result])
 
   const onGenerate = async () => {
     const userRank = Number(rank)
@@ -53,15 +66,33 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
     setFavVersion(v => v + 1)
   }
 
+  // 大类联动：选大类后专业下拉列表更新，切大类时清空专业
+  const majorOptions = majorList && fCategory ? (majorList[fCategory] || []) : []
+  const selectCategory = (v) => { setFCategory(v); setFMajor(''); setPage(1) }
+
+  // 从推荐结果中提取去重的省份列表
+  const provinces = useMemo(() => {
+    if (!items.length) return []
+    const s = new Set()
+    items.forEach(it => { if (it.school.province) s.add(it.school.province) })
+    return [...s].sort()
+  }, [items])
+
   const items = result ? result[tab] : []
-  const filteredItems = majorFilter.trim()
-    ? items.filter(it => it.major.includes(majorFilter.trim()))
-    : items
+  const filteredItems = items.filter(it => {
+    if (fProvince && (it.school.province || '') !== fProvince) return false
+    if (fLevel && (it.school.level || '') !== fLevel) return false
+    if (fType && (it.school.type || '') !== fType) return false
+    if (fCategory && categorizeMajor(it.major) !== fCategory) return false
+    if (fMajor && it.major !== fMajor) return false
+    return true
+  })
   const totalPages = Math.ceil(filteredItems.length / PAGE_SIZE)
   const currentPage = Math.min(page, totalPages || 1)
   const visibleItems = filteredItems.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
-  const switchTab = (t) => { setTab(t); setPage(1) }
+  // 筛选条件变化时重置到第一页
+  useEffect(() => { setPage(1) }, [fProvince, fLevel, fType, fCategory, fMajor, tab])
 
   return (
     <div>
@@ -124,18 +155,35 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
         </div>
       )}
 
-      {/* 专业筛选 */}
+      {/* 筛选栏 */}
       {result && (
-        <div style={{ marginBottom: 'var(--sp-3)', display: 'flex', alignItems: 'center', gap: 'var(--sp-2)' }}>
-          <input value={majorFilter} onChange={e => { setMajorFilter(e.target.value); setPage(1) }}
-            placeholder="按专业筛选，如 计算机 / 电子 / 临床"
-            style={{ flex: 1, maxWidth: 360, padding: 'var(--sp-2) var(--sp-3)',
-              border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }} />
-          {majorFilter && (
-            <span style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)' }}>
-              筛选出 {filteredItems.length} 条
-            </span>
+        <div style={{ background: 'var(--color-card)', border: '1px solid var(--color-border)',
+          borderRadius: 'var(--radius-md)', padding: 'var(--sp-3)', marginBottom: 'var(--sp-3)',
+          display: 'flex', gap: 'var(--sp-3)', flexWrap: 'wrap', alignItems: 'flex-end' }}>
+          <FilterSelect label="省份" value={fProvince} set={setFProvince} opts={provinces} />
+          <FilterSelect label="专业大类" value={fCategory} set={selectCategory} opts={ALL_CATEGORIES} />
+          <label style={{ flex: 1, minWidth: 140 }}>
+            <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', marginBottom: 'var(--sp-1)' }}>专业名称</div>
+            <select value={fMajor} onChange={e => { setFMajor(e.target.value); setPage(1) }} disabled={!fCategory}
+              style={{ width: '100%', padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)',
+                borderRadius: 'var(--radius-sm)', background: 'var(--color-card)', opacity: fCategory ? 1 : 0.5 }}>
+              <option value="">全部{fCategory ? `（${majorOptions.length}个）` : ''}</option>
+              {majorOptions.map(m => <option key={m} value={m}>{m}</option>)}
+            </select>
+          </label>
+          <FilterSelect label="层次" value={fLevel} set={setFLevel} opts={['985/211', '双一流', '211', '普通本科']} />
+          <FilterSelect label="类型" value={fType} set={setFType} opts={['综合', '理工', '师范', '医药', '财经', '政法', '农林', '艺术', '语言', '民族']} />
+          {(fProvince || fLevel || fType || fCategory || fMajor) && (
+            <button onClick={() => { setFProvince(''); setFLevel(''); setFType(''); setFCategory(''); setFMajor(''); setPage(1) }}
+              style={{ padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)',
+                borderRadius: 'var(--radius-sm)', background: 'var(--color-card)', fontSize: 'var(--fs-12)',
+                color: 'var(--color-muted-foreground)', minHeight: 36 }}>
+              清除筛选
+            </button>
           )}
+          <span style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', minWidth: 60 }}>
+            共 {filteredItems.length} 条
+          </span>
         </div>
       )}
 
@@ -159,5 +207,19 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
         <Pagination total={filteredItems.length} page={currentPage} pageSize={PAGE_SIZE} onChange={setPage} />
       )}
     </div>
+  )
+}
+
+function FilterSelect({ label, value, set, opts }) {
+  return (
+    <label style={{ flex: 1, minWidth: 120 }}>
+      <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', marginBottom: 'var(--sp-1)' }}>{label}</div>
+      <select value={value} onChange={e => { set(e.target.value); /* setPage handled by parent */ }}
+        style={{ width: '100%', padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)',
+          borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }}>
+        <option value="">全部</option>
+        {opts.map(o => <option key={o} value={o}>{o}</option>)}
+      </select>
+    </label>
   )
 }

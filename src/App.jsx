@@ -91,8 +91,8 @@ export default function App() {
           </button>
         </div>
         {renderPage()}
-        <BackToTop />
       </main>
+      <BackToTop />
     </div>
   )
 }
