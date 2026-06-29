@@ -63,6 +63,7 @@ export function recommend({ userRank, subject, records5y, schools }) {
       school,
       major: agg.major,
       majorCode: agg.majorCode,
+      gradient,
       baseRank,
       userRank,
       ratio,

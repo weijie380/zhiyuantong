@@ -39,6 +39,7 @@ describe('recommend', () => {
     // 基准位次 = (13000+12500+14000+13500+14500)/5 = 13500, B/R=0.90 → 冲
     expect(result.reach).toHaveLength(1)
     expect(result.reach[0].school.name).toBe('测试大学')
+    expect(result.reach[0].gradient).toBe('reach')
     expect(result.stable).toHaveLength(0)
     expect(result.safe).toHaveLength(0)
   })
