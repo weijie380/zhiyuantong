@@ -158,5 +158,165 @@
  "北京化工大学": {
   "records": [],
   "source": "dns_fail"
+ },
+ "北京林业大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "对外经济贸易大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "中央财经大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中国政法大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "华北电力大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "华东理工大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "东华大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "南京航空航天大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "南京理工大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "河海大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "南京农业大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中国药科大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "南京师范大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "苏州大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "武汉理工大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "华中农业大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "华中师范大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "中南财经政法大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "湖南师范大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "暨南大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "华南师范大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "西南交通大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "西南财经大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "西南大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "西安电子科技大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "长安大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "西北大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "陕西师范大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "哈尔滨工程大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "东北林业大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "东北农业大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "大连海事大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "辽宁大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "太原理工大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "内蒙古大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "南昌大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "安徽大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "合肥工业大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "郑州大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "中国矿业大学": {
+  "records": [],
+  "source": "no_hebei_data"
  }
 }

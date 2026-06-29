@@ -8,8 +8,6 @@ import Skeleton from '../components/Skeleton.jsx'
 
 export default function SchoolDetailPage({ schoolId, onBack }) {
   const [school, setSchool] = useState(null)
-
-  if (!schoolId) return null
   const [subject, setSubject] = useState('physics')
   const [year, setYear] = useState(2024)
   const [records, setRecords] = useState(null)
@@ -17,15 +15,20 @@ export default function SchoolDetailPage({ schoolId, onBack }) {
   const [showCompare, setShowCompare] = useState(false)
 
   useEffect(() => {
+    if (!schoolId) return
+    setSchool(null)
     loadSchools().then(m => setSchool(m[schoolId])).catch(() => setSchool(null))
   }, [schoolId])
 
   useEffect(() => {
+    if (!schoolId) return
     setRecords(null)
     loadScoreFile(subject, year).then(f => {
       setRecords(f.records.filter(r => r.schoolId === schoolId))
     }).catch(() => setRecords([]))
   }, [schoolId, subject, year])
+
+  if (!schoolId) return null
 
   const rankNum = showCompare && compareRank ? Number(compareRank) : null
 
