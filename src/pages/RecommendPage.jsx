@@ -21,12 +21,11 @@ const TAB_BG = {
 }
 
 export default function RecommendPage({ savedState, onStateChange, onOpenSchool }) {
-  const { subject, rank, result, tab } = savedState
+  const { subject, rank, result } = savedState
   const setSubject = (v) => onStateChange(prev => ({ ...prev, subject: v }))
   const setRank = (v) => onStateChange(prev => ({ ...prev, rank: v }))
   const setResult = (v) => onStateChange(prev => ({ ...prev, result: v }))
-  const setTab = (v) => onStateChange(prev => ({ ...prev, tab: v }))
-  // 以下状态不跨页面持久化
+  // 以下状态不跨页面持久化（tab 改为内部管理，避免受控链路导致切换失效）
   const [fProvince, setFProvince] = useState('')
   const [fLevel, setFLevel] = useState('')
   const [fType, setFType] = useState('')
@@ -34,6 +33,7 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const [fMajor, setFMajor] = useState('')
   const [majorList, setMajorList] = useState(null)
   const [loading, setLoading] = useState(false)
+  const [tab, setTab] = useState('reach')
   const [favVersion, setFavVersion] = useState(0)
   const [page, setPage] = useState(1)
   const PAGE_SIZE = 20
@@ -93,7 +93,7 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
   const visibleItems = filteredItems.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
   // 筛选条件变化时重置到第一页
-  useEffect(() => { setPage(1) }, [fProvince, fLevel, fType, fCategory, fMajor, tab])
+  useEffect(() => { setPage(1) }, [fProvince, fLevel, fType, fCategory, fMajor])
 
   return (
     <div>
@@ -172,7 +172,7 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
               {majorOptions.map(m => <option key={m} value={m}>{m}</option>)}
             </select>
           </label>
-          <FilterSelect label="层次" value={fLevel} set={setFLevel} opts={['985/211', '双一流', '211', '普通本科']} />
+          <FilterSelect label="层次" value={fLevel} set={setFLevel} opts={['985/211', '211', '普通本科']} />
           <FilterSelect label="类型" value={fType} set={setFType} opts={['综合', '理工', '师范', '医药', '财经', '政法', '农林', '艺术', '语言', '民族']} />
           {(fProvince || fLevel || fType || fCategory || fMajor) && (
             <button onClick={() => { setFProvince(''); setFLevel(''); setFType(''); setFCategory(''); setFMajor(''); setPage(1) }}

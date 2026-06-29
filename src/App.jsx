@@ -15,7 +15,7 @@ export default function App() {
   const [page, setPage] = useState('recommend')
   const [detailId, setDetailId] = useState(null)
   const [theme, setTheme] = useState('light')
-  const [recState, setRecState] = useState({ subject: 'physics', rank: '', result: null, tab: 'reach' })
+  const [recState, setRecState] = useState({ subject: 'physics', rank: '', result: null })
 
   // 初始化：检查登录态 + 主题 + 已保存的输入
   useEffect(() => {
