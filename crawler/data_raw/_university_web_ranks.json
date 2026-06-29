@@ -1,0 +1,162 @@
+{
+ "清华大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "北京大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "浙江大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "复旦大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "上海交通大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "南京大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "中国科学技术大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "武汉大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "华中科技大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中山大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "哈尔滨工业大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "西安交通大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "北京航空航天大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "北京理工大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "天津大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "南开大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "大连理工大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "吉林大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "同济大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "华东师范大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "东南大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "厦门大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "山东大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "湖南大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中南大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "华南理工大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "电子科技大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "四川大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "重庆大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "西北工业大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "兰州大学": {
+  "records": [],
+  "source": "fetch_failed"
+ },
+ "东北大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "北京师范大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中国人民大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中国农业大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "中央民族大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "北京交通大学": {
+  "records": [],
+  "source": "dns_fail"
+ },
+ "北京科技大学": {
+  "records": [],
+  "source": "no_hebei_data"
+ },
+ "北京邮电大学": {
+  "records": [],
+  "source": "no_score_page"
+ },
+ "北京化工大学": {
+  "records": [],
+  "source": "dns_fail"
+ }
+}

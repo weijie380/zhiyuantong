@@ -2,6 +2,19 @@
 const cache = new Map()
 let schoolsMap = null
 let schoolsArr = null
+let majorList = null
+
+export async function loadMajorList() {
+  if (majorList) return majorList
+  const res = await fetch('./data/major-list.json')
+  if (!res.ok) throw new Error(`加载专业列表失败: ${res.status}`)
+  const ct = res.headers.get('content-type') || ''
+  if (!ct.includes('application/json') && !ct.includes('text/plain')) {
+    throw new Error('专业列表文件不存在')
+  }
+  majorList = await res.json()
+  return majorList
+}
 
 export async function loadSchools() {
   if (schoolsMap) return schoolsMap
@@ -53,4 +66,5 @@ export function clearCache() {
   cache.clear()
   schoolsMap = null
   schoolsArr = null
+  majorList = null
 }

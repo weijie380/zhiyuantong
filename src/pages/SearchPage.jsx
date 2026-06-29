@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Search } from 'lucide-react'
-import { loadSchoolsArray, loadScoreFile } from '../lib/dataLoader.js'
+import { loadSchoolsArray, loadScoreFile, loadMajorList } from '../lib/dataLoader.js'
 import { categorizeMajor, ALL_CATEGORIES } from '../lib/majorCategories.js'
 import SchoolTable from '../components/SchoolTable.jsx'
 import Skeleton from '../components/Skeleton.jsx'
@@ -13,14 +13,15 @@ export default function SearchPage({ onOpenSchool }) {
   const [schoolsArr, setSchoolsArr] = useState(null)
   const [schoolsMap, setSchoolsMap] = useState(null)
   const [kw, setKw] = useState('')
-  const [majorKw, setMajorKw] = useState('')
   const [fProvince, setFProvince] = useState('')
   const [fLevel, setFLevel] = useState('')
   const [fType, setFType] = useState('')
   const [fCategory, setFCategory] = useState('')
+  const [fMajor, setFMajor] = useState('')
   const [subject, setSubject] = useState('physics')
   const [year, setYear] = useState(2024)
   const [scoreRecords, setScoreRecords] = useState(null)
+  const [majorList, setMajorList] = useState(null)
 
   useEffect(() => {
     loadSchoolsArray().then(arr => {
@@ -29,6 +30,7 @@ export default function SearchPage({ onOpenSchool }) {
       for (const s of arr) m[s.id] = s
       setSchoolsMap(m)
     }).catch(() => { setSchoolsArr([]); setSchoolsMap({}) })
+    loadMajorList().then(setMajorList).catch(() => setMajorList({}))
   }, [])
 
   useEffect(() => {
@@ -37,7 +39,6 @@ export default function SearchPage({ onOpenSchool }) {
     setScoreRecords(null)
     loadScoreFile(subject, year).then(file => {
       if (cancelled) return
-      // 只保留有真实位次的记录
       setScoreRecords(file.records.filter(r => r.minRank != null && !r.minRankEstimated))
     }).catch(() => { if (!cancelled) setScoreRecords([]) })
     return () => { cancelled = true }
@@ -48,10 +49,19 @@ export default function SearchPage({ onOpenSchool }) {
     return [...new Set(schoolsArr.map(s => s.province))].filter(Boolean).sort()
   }, [schoolsArr])
 
-  // 是否进入专业维度筛选模式
-  const majorMode = !!(fCategory || majorKw.trim())
+  // 当前大类下的专业列表（联动）
+  const majorOptions = useMemo(() => {
+    if (!majorList) return []
+    if (!fCategory) return []  // 未选大类时不显示专业下拉
+    return majorList[fCategory] || []
+  }, [majorList, fCategory])
 
-  // 学校维度行（不按专业筛时）
+  const selectCategory = (v) => { setFCategory(v); setFMajor('') }  // 切换大类时清空专业
+
+  // 是否进入专业维度筛选模式
+  const majorMode = !!(fCategory || fMajor)
+
+  // 学校维度行
   const schoolRows = useMemo(() => {
     if (!schoolsArr || !scoreRecords) return []
     const bySchool = {}
@@ -70,7 +80,7 @@ export default function SearchPage({ onOpenSchool }) {
       })
   }, [schoolsArr, scoreRecords, kw, fProvince, fLevel, fType])
 
-  // 专业维度行（按专业大类或专业名筛时）
+  // 专业维度行
   const majorRows = useMemo(() => {
     if (!schoolsMap || !scoreRecords) return []
     return scoreRecords
@@ -86,10 +96,10 @@ export default function SearchPage({ onOpenSchool }) {
         if (fLevel && r.level !== fLevel) return false
         if (fType && r.type !== fType) return false
         if (fCategory && categorizeMajor(r.major) !== fCategory) return false
-        if (majorKw.trim() && !r.major.includes(majorKw.trim())) return false
+        if (fMajor && r.major !== fMajor) return false
         return true
       })
-  }, [schoolsMap, scoreRecords, kw, fProvince, fLevel, fType, fCategory, majorKw])
+  }, [schoolsMap, scoreRecords, kw, fProvince, fLevel, fType, fCategory, fMajor])
 
   const columns = majorMode
     ? [
@@ -110,7 +120,7 @@ export default function SearchPage({ onOpenSchool }) {
       ]
 
   const rows = majorMode ? majorRows : schoolRows
-  const rowLimit = 200  // 专业维度行可能很多，限制展示数避免卡顿
+  const rowLimit = 200
   const displayRows = majorMode ? rows.slice(0, rowLimit) : rows
 
   return (
@@ -126,12 +136,15 @@ export default function SearchPage({ onOpenSchool }) {
                 style={{ width: '100%', padding: 'var(--sp-2) var(--sp-2) var(--sp-2) var(--sp-6)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }} />
             </div>
           </label>
+          <FilterSelect label="专业大类" value={fCategory} set={selectCategory} opts={ALL_CATEGORIES} />
           <label style={{ flex: 2, minWidth: 200 }}>
             <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', marginBottom: 'var(--sp-1)' }}>专业名称</div>
-            <input value={majorKw} onChange={e => setMajorKw(e.target.value)} placeholder="如 计算机 / 临床医学"
-              style={{ width: '100%', padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }} />
+            <select value={fMajor} onChange={e => setFMajor(e.target.value)} disabled={!fCategory}
+              style={{ width: '100%', padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)', opacity: fCategory ? 1 : 0.5 }}>
+              <option value="">全部{fCategory ? `（${majorOptions.length}个）` : ''}</option>
+              {majorOptions.map(m => <option key={m} value={m}>{m}</option>)}
+            </select>
           </label>
-          <FilterSelect label="专业大类" value={fCategory} set={setFCategory} opts={ALL_CATEGORIES} />
           <FilterSelect label="省份" value={fProvince} set={setFProvince} opts={provinces} />
           <FilterSelect label="层次" value={fLevel} set={setFLevel} opts={LEVELS} />
           <FilterSelect label="类型" value={fType} set={setFType} opts={TYPES} />
