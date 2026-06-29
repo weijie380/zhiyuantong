@@ -11,6 +11,9 @@ export default function App() {
   const [detailId, setDetailId] = useState(null)
   const [theme, setTheme] = useState('light')
 
+  // 推荐页状态持久化在 App 层，跨页面切换不丢失
+  const [recState, setRecState] = useState({ subject: 'physics', rank: '' })
+
   useEffect(() => {
     const saved = localStorage.getItem('zyt_theme')
     if (saved) setTheme(saved)
@@ -24,12 +27,22 @@ export default function App() {
 
   const openSchool = (id) => { setDetailId(id); setPage('detail') }
 
-  const isDetail = page === 'detail' && detailId
-  const show = (p) => ({ display: page === p ? undefined : 'none' })
+  const renderPage = () => {
+    switch (page) {
+      case 'detail':
+        return detailId ? <SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /> : null
+      case 'search':
+        return <SearchPage onOpenSchool={openSchool} />
+      case 'favorites':
+        return <FavoritesPage onOpenSchool={openSchool} />
+      default:
+        return <RecommendPage savedState={recState} onStateChange={setRecState} onOpenSchool={openSchool} />
+    }
+  }
 
   return (
     <div style={{ display: 'flex', minHeight: '100dvh', background: 'var(--color-background)' }}>
-      <Sidebar active={isDetail ? 'recommend' : page} onNavigate={setPage} />
+      <Sidebar active={page === 'detail' ? 'recommend' : page} onNavigate={setPage} />
       <main style={{ flex: 1, maxWidth: 1100, margin: '0 auto', padding: 'var(--sp-6)', minWidth: 0 }}>
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 'var(--sp-4)' }}>
           <button onClick={() => setTheme(t => t === 'light' ? 'dark' : 'light')}
@@ -40,10 +53,7 @@ export default function App() {
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
         </div>
-        <div style={show('recommend')}><RecommendPage onOpenSchool={openSchool} /></div>
-        <div style={show('detail')}><SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /></div>
-        <div style={show('search')}><SearchPage onOpenSchool={openSchool} /></div>
-        <div style={show('favorites')}><FavoritesPage onOpenSchool={openSchool} /></div>
+        {renderPage()}
       </main>
     </div>
   )

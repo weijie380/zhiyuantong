@@ -18,9 +18,11 @@ const TAB_BG = {
   reach: 'var(--color-reach-bg)', stable: 'var(--color-stable-bg)', safe: 'var(--color-safe-bg)',
 }
 
-export default function RecommendPage({ onOpenSchool }) {
-  const [subject, setSubject] = useState('physics')
-  const [rank, setRank] = useState('')
+export default function RecommendPage({ savedState, onStateChange, onOpenSchool }) {
+  const { subject, rank } = savedState
+  const setSubject = (v) => onStateChange({ ...savedState, subject: v })
+  const setRank = (v) => onStateChange({ ...savedState, rank: v })
+  // 以下状态不需要跨页面持久化
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState(null)
   const [tab, setTab] = useState('reach')
