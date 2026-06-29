@@ -1,0 +1,8 @@
+{
+  "schools": [
+    { "id": "10001", "name": "北京大学", "province": "北京", "city": "北京", "level": "985/211", "type": "综合", "nature": "公办", "batch": "本科" },
+    { "id": "10003", "name": "清华大学", "province": "北京", "city": "北京", "level": "985/211", "type": "理工", "nature": "公办", "batch": "本科" },
+    { "id": "10007", "name": "北京理工大学", "province": "北京", "city": "北京", "level": "985/211", "type": "理工", "nature": "公办", "batch": "本科" },
+    { "id": "10056", "name": "天津大学", "province": "天津", "city": "天津", "level": "985/211", "type": "理工", "nature": "公办", "batch": "本科" }
+  ]
+}

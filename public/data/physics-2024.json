@@ -1,0 +1,9 @@
+{
+  "year": 2024,
+  "subject": "physics",
+  "records": [
+    { "schoolId": "10007", "major": "计算机科学与技术", "majorCode": "080901", "minScore": 660, "maxScore": 668, "avgScore": 664, "minRank": 13500, "planNum": 5, "remark": "" },
+    { "schoolId": "10056", "major": "软件工程", "majorCode": "080902", "minScore": 645, "maxScore": 652, "avgScore": 648, "minRank": 16000, "planNum": 8, "remark": "" },
+    { "schoolId": "10003", "major": "电子信息类", "majorCode": "0807", "minScore": 690, "maxScore": 695, "avgScore": 692, "minRank": 5000, "planNum": 3, "remark": "" }
+  ]
+}
