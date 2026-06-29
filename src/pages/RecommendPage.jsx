@@ -21,6 +21,7 @@ const TAB_BG = {
 export default function RecommendPage({ onOpenSchool }) {
   const [subject, setSubject] = useState('physics')
   const [rank, setRank] = useState('')
+  const [majorFilter, setMajorFilter] = useState('')
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState(null)
   const [tab, setTab] = useState('reach')
@@ -50,7 +51,10 @@ export default function RecommendPage({ onOpenSchool }) {
   }
 
   const items = result ? result[tab] : []
-  const visibleItems = items.slice(0, limit)
+  const filteredItems = majorFilter.trim()
+    ? items.filter(it => it.major.includes(majorFilter.trim()))
+    : items
+  const visibleItems = filteredItems.slice(0, limit)
 
   const switchTab = (t) => { setTab(t); setLimit(PAGE_SIZE) }
 
@@ -115,15 +119,30 @@ export default function RecommendPage({ onOpenSchool }) {
         </div>
       )}
 
+      {/* 专业筛选 */}
+      {result && (
+        <div style={{ marginBottom: 'var(--sp-3)', display: 'flex', alignItems: 'center', gap: 'var(--sp-2)' }}>
+          <input value={majorFilter} onChange={e => { setMajorFilter(e.target.value); setLimit(PAGE_SIZE) }}
+            placeholder="按专业筛选，如 计算机 / 电子 / 临床"
+            style={{ flex: 1, maxWidth: 360, padding: 'var(--sp-2) var(--sp-3)',
+              border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }} />
+          {majorFilter && (
+            <span style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)' }}>
+              筛选出 {filteredItems.length} 条
+            </span>
+          )}
+        </div>
+      )}
+
       {/* 列表 */}
       {loading && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--sp-3)' }}>
           {[0,1,2].map(i => <Skeleton key={i} height={120} />)}
         </div>
       )}
-      {!loading && result && items.length === 0 && (
+      {!loading && result && filteredItems.length === 0 && (
         <div style={{ padding: 'var(--sp-8)', textAlign: 'center', color: 'var(--color-muted-foreground)' }}>
-          该档位暂无匹配学校
+          {majorFilter ? `没有匹配「${majorFilter}」的专业` : '该档位暂无匹配学校'}
         </div>
       )}
       {!loading && visibleItems.map((item, i) => (
@@ -131,13 +150,13 @@ export default function RecommendPage({ onOpenSchool }) {
           isFav={favorites.has(item.school.id, item.major)}
           onToggleFav={toggleFav} onView={onOpenSchool} />
       ))}
-      {!loading && items.length > limit && (
+      {!loading && filteredItems.length > limit && (
         <div style={{ textAlign: 'center', padding: 'var(--sp-4)' }}>
           <button onClick={() => setLimit(l => l + PAGE_SIZE)}
             style={{ background: 'var(--color-card)', color: 'var(--color-secondary)',
               border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)',
               padding: 'var(--sp-2) var(--sp-6)' }}>
-            加载更多（剩余 {items.length - limit} 条）
+            加载更多（剩余 {filteredItems.length - limit} 条）
           </button>
         </div>
       )}

@@ -25,18 +25,18 @@
       "name": "安徽工程大学",
       "province": "安徽",
       "city": "芜湖市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "868545",
       "name": "安徽工业大学",
-      "province": "安徽",
+      "province": "辽宁",
       "city": "马鞍山市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -56,7 +56,7 @@
       "province": "安徽",
       "city": "蚌埠市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -65,7 +65,7 @@
       "name": "安徽理工大学",
       "province": "安徽",
       "city": "淮南市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -75,7 +75,7 @@
       "name": "安徽农业大学",
       "province": "安徽",
       "city": "合肥市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "农林",
       "nature": "公办",
       "batch": "本科"
@@ -96,7 +96,7 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -105,8 +105,8 @@
       "name": "安徽医科大学",
       "province": "安徽",
       "city": "合肥市",
-      "level": "双一流",
-      "type": "医药",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -116,7 +116,7 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -226,7 +226,7 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -246,7 +246,7 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -296,7 +296,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -366,7 +366,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -376,7 +376,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -386,7 +386,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -426,7 +426,7 @@
       "province": "北京",
       "city": "",
       "level": "211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -436,7 +436,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -446,7 +446,7 @@
       "province": "北京",
       "city": "",
       "level": "985/211",
-      "type": "航空",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -456,7 +456,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "航空",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -466,7 +466,7 @@
       "province": "北京",
       "city": "",
       "level": "211",
-      "type": "综合",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -506,7 +506,7 @@
       "province": "北京",
       "city": "",
       "level": "211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -516,7 +516,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -566,7 +566,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "农林",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -583,7 +583,7 @@
     {
       "id": "225333",
       "name": "北京师范大学-香港浸会大学联合国际学院",
-      "province": "北京",
+      "province": "广东",
       "city": "珠海市",
       "level": "普通本科",
       "type": "师范",
@@ -605,7 +605,7 @@
       "name": "北京体育大学",
       "province": "北京",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "体育",
       "nature": "公办",
       "batch": "本科"
@@ -616,7 +616,7 @@
       "province": "北京",
       "city": "",
       "level": "211",
-      "type": "语言",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -626,7 +626,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -646,7 +646,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -736,7 +736,7 @@
       "province": "山东",
       "city": "烟台市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -846,7 +846,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -856,7 +856,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -866,7 +866,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -876,7 +876,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -906,7 +906,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -915,7 +915,7 @@
       "name": "长春理工大学",
       "province": "吉林",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -955,7 +955,7 @@
       "name": "长江大学",
       "province": "",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -973,7 +973,7 @@
     {
       "id": "646991",
       "name": "长江师范学院",
-      "province": "",
+      "province": "重庆",
       "city": "重庆市",
       "level": "普通本科",
       "type": "师范",
@@ -1026,14 +1026,14 @@
       "province": "湖南",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
     {
       "id": "432831",
       "name": "长治学院",
-      "province": "",
+      "province": "山西",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -1043,17 +1043,17 @@
     {
       "id": "827174",
       "name": "长治医学院",
-      "province": "",
+      "province": "山西",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "536631",
       "name": "常熟理工学院",
-      "province": "",
+      "province": "江苏",
       "city": "苏州市",
       "level": "普通本科",
       "type": "理工",
@@ -1085,7 +1085,7 @@
       "name": "成都大学",
       "province": "四川",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -1106,7 +1106,7 @@
       "province": "四川",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1125,7 +1125,7 @@
       "name": "成都理工大学",
       "province": "四川",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -1146,7 +1146,7 @@
       "province": "四川",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1156,7 +1156,7 @@
       "province": "四川",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1175,7 +1175,7 @@
       "name": "成都中医药大学",
       "province": "四川",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "医药",
       "nature": "公办",
       "batch": "本科"
@@ -1186,7 +1186,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1265,7 +1265,7 @@
       "name": "重庆交通大学",
       "province": "重庆",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -1276,7 +1276,7 @@
       "province": "重庆",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1285,7 +1285,7 @@
       "name": "重庆理工大学",
       "province": "重庆",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -1296,7 +1296,7 @@
       "province": "重庆",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -1326,7 +1326,7 @@
       "province": "重庆",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -1345,8 +1345,8 @@
       "name": "重庆医科大学",
       "province": "重庆",
       "city": "",
-      "level": "双一流",
-      "type": "医药",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1365,7 +1365,7 @@
       "name": "重庆邮电大学",
       "province": "重庆",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -1376,7 +1376,7 @@
       "province": "四川",
       "city": "南充市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1416,7 +1416,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -1426,7 +1426,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1436,7 +1436,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "艺术",
       "nature": "",
       "batch": "本科"
     },
@@ -1446,7 +1446,7 @@
       "province": "辽宁",
       "city": "",
       "level": "211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1456,7 +1456,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1476,7 +1476,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -1526,7 +1526,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1536,7 +1536,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1546,7 +1546,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -1576,7 +1576,7 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1593,7 +1593,7 @@
     {
       "id": "994162",
       "name": "电子科技大学",
-      "province": "",
+      "province": "四川",
       "city": "成都市",
       "level": "985/211",
       "type": "理工",
@@ -1655,8 +1655,8 @@
       "name": "东北电力大学",
       "province": "吉林",
       "city": "吉林市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1685,7 +1685,7 @@
       "name": "东北师范大学",
       "province": "吉林",
       "city": "长春市",
-      "level": "211",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -1695,7 +1695,7 @@
       "name": "东北石油大学",
       "province": "黑龙江",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -1763,17 +1763,17 @@
     {
       "id": "901160",
       "name": "对外经济贸易大学",
-      "province": "",
+      "province": "北京",
       "city": "北京市",
       "level": "211",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "677703",
       "name": "鄂尔多斯应用技术学院",
-      "province": "内蒙古",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -1786,7 +1786,7 @@
       "province": "河北",
       "city": "廊坊市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1796,7 +1796,7 @@
       "province": "福建",
       "city": "福州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1805,7 +1805,7 @@
       "name": "福建农林大学",
       "province": "福建",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "农林",
       "nature": "公办",
       "batch": "本科"
@@ -1815,7 +1815,7 @@
       "name": "福建师范大学",
       "province": "福建",
       "city": "福州市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -1826,7 +1826,7 @@
       "province": "福建",
       "city": "福州市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1866,14 +1866,14 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "",
       "batch": "本科"
     },
     {
       "id": "855086",
       "name": "复旦大学",
-      "province": "",
+      "province": "上海",
       "city": "上海市",
       "level": "985/211",
       "type": "综合",
@@ -1886,7 +1886,7 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -1905,7 +1905,7 @@
       "name": "甘肃农业大学",
       "province": "甘肃",
       "city": "兰州市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "农林",
       "nature": "公办",
       "batch": "本科"
@@ -1925,7 +1925,7 @@
       "name": "甘肃中医药大学",
       "province": "甘肃",
       "city": "兰州市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "医药",
       "nature": "公办",
       "batch": "本科"
@@ -1943,17 +1943,17 @@
     {
       "id": "574162",
       "name": "赣南科技学院",
-      "province": "",
+      "province": "江西",
       "city": "赣州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "350669",
       "name": "赣南师范大学",
-      "province": "",
+      "province": "江西",
       "city": "赣州市",
       "level": "普通本科",
       "type": "师范",
@@ -1966,17 +1966,17 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "",
       "batch": "本科"
     },
     {
       "id": "222530",
       "name": "赣南医学院",
-      "province": "",
+      "province": "江西",
       "city": "赣州市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2016,7 +2016,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2026,7 +2026,7 @@
       "province": "广东",
       "city": "湛江市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2036,7 +2036,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2046,7 +2046,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2066,7 +2066,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2076,7 +2076,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -2086,7 +2086,7 @@
       "province": "广东",
       "city": "广州市",
       "level": "普通本科",
-      "type": "综合",
+      "type": "医药",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2096,7 +2096,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2136,7 +2136,7 @@
       "province": "广西",
       "city": "柳州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2146,7 +2146,7 @@
       "province": "广西",
       "city": "来宾市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2185,7 +2185,7 @@
       "name": "广西师范大学",
       "province": "广西",
       "city": "桂林市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -2196,7 +2196,7 @@
       "province": "广西",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2205,8 +2205,8 @@
       "name": "广西医科大学",
       "province": "广西",
       "city": "南宁市",
-      "level": "双一流",
-      "type": "医药",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2256,7 +2256,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2286,7 +2286,7 @@
       "province": "广东",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2305,7 +2305,7 @@
       "name": "广州中医药大学",
       "province": "广东",
       "city": "",
-      "level": "211",
+      "level": "普通本科",
       "type": "医药",
       "nature": "公办",
       "batch": "本科"
@@ -2316,7 +2316,7 @@
       "province": "贵州",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2346,7 +2346,7 @@
       "province": "贵州",
       "city": "毕节市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2376,7 +2376,7 @@
       "province": "贵州",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2386,7 +2386,7 @@
       "province": "贵州",
       "city": "贵阳市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2395,7 +2395,7 @@
       "name": "贵州师范大学",
       "province": "贵州",
       "city": "贵阳市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -2416,7 +2416,7 @@
       "province": "贵州",
       "city": "贵阳市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2445,7 +2445,7 @@
       "name": "桂林电子科技大学",
       "province": "广西",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -2465,7 +2465,7 @@
       "name": "桂林理工大学",
       "province": "广西",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -2486,7 +2486,7 @@
       "province": "广西",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2506,7 +2506,7 @@
       "province": "广西",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2515,8 +2515,8 @@
       "name": "哈尔滨工程大学",
       "province": "黑龙江",
       "city": "",
-      "level": "985/211",
-      "type": "理工",
+      "level": "211",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2526,7 +2526,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "985/211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2536,7 +2536,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2546,7 +2546,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2586,7 +2586,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2646,7 +2646,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2666,7 +2666,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2686,7 +2686,7 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "军事",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2696,7 +2696,7 @@
       "province": "海南",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2716,7 +2716,7 @@
       "province": "海南",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2726,7 +2726,7 @@
       "province": "海南",
       "city": "三亚市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2735,7 +2735,7 @@
       "name": "海南师范大学",
       "province": "海南",
       "city": "海口市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -2746,7 +2746,7 @@
       "province": "海南",
       "city": "海口市",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2773,7 +2773,7 @@
     {
       "id": "358040",
       "name": "汉口学院",
-      "province": "",
+      "province": "湖北",
       "city": "武汉市",
       "level": "普通本科",
       "type": "综合",
@@ -2785,7 +2785,7 @@
       "name": "杭州电子科技大学",
       "province": "浙江",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -2826,7 +2826,7 @@
       "province": "安徽",
       "city": "",
       "level": "211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2836,7 +2836,7 @@
       "province": "安徽",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2876,7 +2876,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "艺术",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2885,7 +2885,7 @@
       "name": "河北大学",
       "province": "河北",
       "city": "保定市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -2956,7 +2956,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2965,8 +2965,8 @@
       "name": "河北工程大学",
       "province": "河北",
       "city": "邯郸市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -2976,7 +2976,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -2986,7 +2986,7 @@
       "province": "河北",
       "city": "石家庄市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -2996,7 +2996,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3006,7 +3006,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3016,17 +3016,17 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "民族",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "327399",
       "name": "河北工业大学",
-      "province": "河北",
+      "province": "天津",
       "city": "天津市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3036,7 +3036,7 @@
       "province": "河北",
       "city": "石家庄市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3046,7 +3046,7 @@
       "province": "河北",
       "city": "秦皇岛市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3066,7 +3066,7 @@
       "province": "河北",
       "city": "保定市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3096,7 +3096,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3115,8 +3115,8 @@
       "name": "河北科技大学",
       "province": "河北",
       "city": "",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3126,7 +3126,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3136,7 +3136,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "民族",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3146,7 +3146,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3156,7 +3156,7 @@
       "province": "河北",
       "city": "秦皇岛市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3166,7 +3166,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3176,7 +3176,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "艺术",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3236,7 +3236,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "农林",
+      "type": "民族",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3246,7 +3246,7 @@
       "province": "河北",
       "city": "保定市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "农林",
       "nature": "",
       "batch": "本科"
     },
@@ -3255,7 +3255,7 @@
       "name": "河北师范大学",
       "province": "河北",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -3306,7 +3306,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3326,7 +3326,7 @@
       "province": "河北",
       "city": "石家庄市",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3335,8 +3335,8 @@
       "name": "河北医科大学",
       "province": "河北",
       "city": "",
-      "level": "双一流",
-      "type": "医药",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3346,7 +3346,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3356,7 +3356,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3416,7 +3416,7 @@
       "province": "河南",
       "city": "郑州市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3426,7 +3426,7 @@
       "province": "河南",
       "city": "平顶山市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3435,7 +3435,7 @@
       "name": "河南大学",
       "province": "河南",
       "city": "开封市",
-      "level": "211",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -3446,7 +3446,7 @@
       "province": "河南",
       "city": "郑州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3465,8 +3465,8 @@
       "name": "河南工业大学",
       "province": "河南",
       "city": "郑州市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3476,7 +3476,7 @@
       "province": "河南",
       "city": "开封市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3485,8 +3485,8 @@
       "name": "河南科技大学",
       "province": "河南",
       "city": "洛阳市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3496,7 +3496,7 @@
       "province": "河南",
       "city": "新乡市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3505,7 +3505,7 @@
       "name": "河南理工大学",
       "province": "河南",
       "city": "焦作市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -3516,7 +3516,7 @@
       "province": "河南",
       "city": "郑州市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3535,7 +3535,7 @@
       "name": "河南师范大学",
       "province": "河南",
       "city": "新乡市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -3615,7 +3615,7 @@
       "name": "黑龙江大学",
       "province": "黑龙江",
       "city": "哈尔滨市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -3636,7 +3636,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3646,7 +3646,7 @@
       "province": "黑龙江",
       "city": "哈尔滨市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3656,7 +3656,7 @@
       "province": "黑龙江",
       "city": "鸡西市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3666,7 +3666,7 @@
       "province": "黑龙江",
       "city": "哈尔滨市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3676,7 +3676,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -3733,7 +3733,7 @@
     {
       "id": "344937",
       "name": "呼伦贝尔学院",
-      "province": "内蒙古",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -3745,7 +3745,7 @@
       "name": "湖北大学",
       "province": "湖北",
       "city": "武汉市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -3776,7 +3776,7 @@
       "province": "湖北",
       "city": "孝感市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3786,7 +3786,7 @@
       "province": "湖北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3796,7 +3796,7 @@
       "province": "湖北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3805,8 +3805,8 @@
       "name": "湖北工业大学",
       "province": "湖北",
       "city": "武汉市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3816,7 +3816,7 @@
       "province": "湖北",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3826,7 +3826,7 @@
       "province": "湖北",
       "city": "武汉市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3836,7 +3836,7 @@
       "province": "湖北",
       "city": "咸宁市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3866,7 +3866,7 @@
       "province": "湖北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -3876,7 +3876,7 @@
       "province": "湖北",
       "city": "十堰市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3956,7 +3956,7 @@
       "province": "湖南",
       "city": "长沙市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -3996,7 +3996,7 @@
       "province": "湖南",
       "city": "湘潭市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4026,7 +4026,7 @@
       "province": "湖南",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -4036,7 +4036,7 @@
       "province": "湖南",
       "city": "株洲市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4045,8 +4045,8 @@
       "name": "湖南科技大学",
       "province": "湖南",
       "city": "湘潭市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4056,7 +4056,7 @@
       "province": "湖南",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -4066,7 +4066,7 @@
       "province": "湖南",
       "city": "永州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4106,7 +4106,7 @@
       "province": "湖南",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "农林",
       "nature": "",
       "batch": "本科"
     },
@@ -4126,7 +4126,7 @@
       "province": "湖南",
       "city": "娄底市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4136,7 +4136,7 @@
       "province": "湖南",
       "city": "长沙市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -4195,7 +4195,7 @@
       "name": "湖南中医药大学",
       "province": "湖南",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "医药",
       "nature": "公办",
       "batch": "本科"
@@ -4226,7 +4226,7 @@
       "province": "河北",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4236,7 +4236,7 @@
       "province": "北京",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4246,16 +4246,16 @@
       "province": "河北",
       "city": "廊坊市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "743446",
       "name": "华北理工大学",
-      "province": "",
+      "province": "河北",
       "city": "唐山市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -4303,9 +4303,9 @@
     {
       "id": "678771",
       "name": "华北水利水电大学",
-      "province": "",
+      "province": "河南",
       "city": "郑州市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -4313,7 +4313,7 @@
     {
       "id": "529897",
       "name": "华东交通大学",
-      "province": "",
+      "province": "江西",
       "city": "南昌市",
       "level": "普通本科",
       "type": "理工",
@@ -4323,7 +4323,7 @@
     {
       "id": "648867",
       "name": "华东理工大学",
-      "province": "",
+      "province": "上海",
       "city": "上海市",
       "level": "211",
       "type": "理工",
@@ -4333,7 +4333,7 @@
     {
       "id": "943579",
       "name": "华东师范大学",
-      "province": "",
+      "province": "上海",
       "city": "上海市",
       "level": "985/211",
       "type": "师范",
@@ -4343,7 +4343,7 @@
     {
       "id": "820368",
       "name": "华东政法大学",
-      "province": "",
+      "province": "上海",
       "city": "上海市",
       "level": "普通本科",
       "type": "政法",
@@ -4353,7 +4353,7 @@
     {
       "id": "414972",
       "name": "华南理工大学",
-      "province": "",
+      "province": "广东",
       "city": "广州市",
       "level": "985/211",
       "type": "理工",
@@ -4363,9 +4363,9 @@
     {
       "id": "154949",
       "name": "华南农业大学",
-      "province": "",
+      "province": "广东",
       "city": "广州市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "农林",
       "nature": "公办",
       "batch": "本科"
@@ -4383,7 +4383,7 @@
     {
       "id": "597847",
       "name": "华南师范大学",
-      "province": "",
+      "province": "广东",
       "city": "广州市",
       "level": "211",
       "type": "师范",
@@ -4393,7 +4393,7 @@
     {
       "id": "192699",
       "name": "华侨大学",
-      "province": "",
+      "province": "福建",
       "city": "泉州市，厦门市",
       "level": "普通本科",
       "type": "综合",
@@ -4406,14 +4406,14 @@
       "province": "",
       "city": "",
       "level": "985/211",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
     {
       "id": "679600",
       "name": "华中农业大学",
-      "province": "",
+      "province": "湖北",
       "city": "武汉市",
       "level": "211",
       "type": "农林",
@@ -4423,7 +4423,7 @@
     {
       "id": "331137",
       "name": "华中师范大学",
-      "province": "",
+      "province": "湖北",
       "city": "武汉市",
       "level": "211",
       "type": "师范",
@@ -4493,10 +4493,10 @@
     {
       "id": "172918",
       "name": "黄河科技学院",
-      "province": "",
+      "province": "河南",
       "city": "郑州市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -4576,7 +4576,7 @@
       "province": "吉林",
       "city": "长春市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4586,7 +4586,7 @@
       "province": "吉林",
       "city": "长春市",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4596,7 +4596,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "综合",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4626,7 +4626,7 @@
       "province": "吉林",
       "city": "长春市",
       "level": "普通本科",
-      "type": "公安",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4646,7 +4646,7 @@
       "province": "吉林",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "农林",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4676,7 +4676,7 @@
       "province": "吉林",
       "city": "长春市",
       "level": "普通本科",
-      "type": "语言",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -4713,7 +4713,7 @@
     {
       "id": "877184",
       "name": "集美大学诚毅学院[独立学院]",
-      "province": "",
+      "province": "福建",
       "city": "厦门市",
       "level": "普通本科",
       "type": "综合",
@@ -4723,7 +4723,7 @@
     {
       "id": "576955",
       "name": "集美大学",
-      "province": "",
+      "province": "福建",
       "city": "厦门市",
       "level": "普通本科",
       "type": "综合",
@@ -4735,7 +4735,7 @@
       "name": "济南大学",
       "province": "山东",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -4756,7 +4756,7 @@
       "province": "山东",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4803,7 +4803,7 @@
     {
       "id": "363297",
       "name": "江汉大学",
-      "province": "",
+      "province": "湖北",
       "city": "武汉市",
       "level": "普通本科",
       "type": "综合",
@@ -4813,7 +4813,7 @@
     {
       "id": "776923",
       "name": "江南大学",
-      "province": "",
+      "province": "江苏",
       "city": "无锡市",
       "level": "211",
       "type": "综合",
@@ -4825,7 +4825,7 @@
       "name": "江苏大学",
       "province": "江苏",
       "city": "镇江市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "综合",
       "nature": "公办",
       "batch": "本科"
@@ -4846,7 +4846,7 @@
       "province": "江苏",
       "city": "连云港市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4875,8 +4875,8 @@
       "name": "江苏科技大学",
       "province": "江苏",
       "city": "镇江市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4946,7 +4946,7 @@
       "province": "江西",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -4956,7 +4956,7 @@
       "province": "江西",
       "city": "南昌市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "师范",
       "nature": "公办",
       "batch": "本科"
     },
@@ -4966,7 +4966,7 @@
       "province": "江西",
       "city": "南昌市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -4986,7 +4986,7 @@
       "province": "江西",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "农林",
       "nature": "",
       "batch": "本科"
     },
@@ -5015,7 +5015,7 @@
       "name": "江西师范大学",
       "province": "江西",
       "city": "南昌市",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "师范",
       "nature": "公办",
       "batch": "本科"
@@ -5033,10 +5033,10 @@
     {
       "id": "692372",
       "name": "金陵科技学院",
-      "province": "",
+      "province": "江苏",
       "city": "南京市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5046,7 +5046,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5056,7 +5056,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -5066,7 +5066,7 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5156,7 +5156,7 @@
       "province": "",
       "city": "",
       "level": "普通本科",
-      "type": "军事",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5175,7 +5175,7 @@
       "name": "昆明理工大学",
       "province": "云南",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -5216,7 +5216,7 @@
       "province": "云南",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5226,7 +5226,7 @@
       "province": "云南",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -5236,7 +5236,7 @@
       "province": "甘肃",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5276,7 +5276,7 @@
       "province": "甘肃",
       "city": "",
       "level": "普通本科",
-      "type": "财经",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5286,7 +5286,7 @@
       "province": "甘肃",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5295,7 +5295,7 @@
       "name": "兰州交通大学",
       "province": "甘肃",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -5305,7 +5305,7 @@
       "name": "兰州理工大学",
       "province": "甘肃",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "理工",
       "nature": "公办",
       "batch": "本科"
@@ -5326,7 +5326,7 @@
       "province": "甘肃",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5363,7 +5363,7 @@
     {
       "id": "743656",
       "name": "丽水学院",
-      "province": "",
+      "province": "浙江",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -5386,7 +5386,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "艺术",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5415,8 +5415,8 @@
       "name": "辽宁工程技术大学",
       "province": "辽宁",
       "city": "",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5426,7 +5426,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5436,7 +5436,7 @@
       "province": "辽宁",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "民办",
       "batch": "本科"
     },
@@ -5445,8 +5445,8 @@
       "name": "辽宁科技大学",
       "province": "辽宁",
       "city": "鞍山市",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5456,7 +5456,7 @@
       "province": "辽宁",
       "city": "本溪市",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5553,7 +5553,7 @@
     {
       "id": "372120",
       "name": "岭南师范学院",
-      "province": "",
+      "province": "广东",
       "city": "湛江市",
       "level": "普通本科",
       "type": "师范",
@@ -5673,7 +5673,7 @@
     {
       "id": "135110",
       "name": "闽江学院",
-      "province": "",
+      "province": "福建",
       "city": "福州市",
       "level": "普通本科",
       "type": "综合",
@@ -5683,7 +5683,7 @@
     {
       "id": "214879",
       "name": "闽南师范大学",
-      "province": "",
+      "province": "福建",
       "city": "漳州市",
       "level": "普通本科",
       "type": "师范",
@@ -5706,7 +5706,7 @@
       "province": "黑龙江",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5746,7 +5746,7 @@
       "province": "江西",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5766,7 +5766,7 @@
       "province": "江西",
       "city": "",
       "level": "普通本科",
-      "type": "航空",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5816,7 +5816,7 @@
       "province": "江西",
       "city": "",
       "level": "普通本科",
-      "type": "医药",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5835,8 +5835,8 @@
       "name": "南方医科大学",
       "province": "",
       "city": "",
-      "level": "双一流",
-      "type": "医药",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5896,7 +5896,7 @@
       "province": "江苏",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5905,8 +5905,8 @@
       "name": "南京工业大学",
       "province": "江苏",
       "city": "",
-      "level": "双一流",
-      "type": "理工",
+      "level": "普通本科",
+      "type": "综合",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5916,7 +5916,7 @@
       "province": "江苏",
       "city": "",
       "level": "普通本科",
-      "type": "理工",
+      "type": "综合",
       "nature": "",
       "batch": "本科"
     },
@@ -5926,7 +5926,7 @@
       "province": "江苏",
       "city": "",
       "level": "211",
-      "type": "航空",
+      "type": "理工",
       "nature": "公办",
       "batch": "本科"
     },
@@ -5955,7 +5955,7 @@
       "name": "南京林业大学",
       "province": "江苏",
       "city": "",
-      "level": "双一流",
+      "level": "普通本科",
       "type": "农林",
       "nature": "公办",
       "batch": "本科"
@@ -6003,7 +6003,7 @@
     {
       "id": "643455",
       "name": "南京特殊教育师范学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -6013,7 +6013,7 @@
     {
       "id": "275178",
       "name": "南京体育学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "体育",
@@ -6023,7 +6023,7 @@
     {
       "id": "960565",
       "name": "南京晓庄学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6033,7 +6033,7 @@
     {
       "id": "710097",
       "name": "南京信息工程大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -6043,7 +6043,7 @@
     {
       "id": "408493",
       "name": "南京邮电大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -6053,7 +6053,7 @@
     {
       "id": "126041",
       "name": "南京邮电大学通达学院[独立学院]",
-      "province": "江苏",
+      "province": "",
       "city": "扬州市",
       "level": "普通本科",
       "type": "理工",
@@ -6063,7 +6063,7 @@
     {
       "id": "129009",
       "name": "南京中医药大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "医药",
@@ -6083,7 +6083,7 @@
     {
       "id": "278619",
       "name": "南宁理工学院",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -6093,7 +6093,7 @@
     {
       "id": "769085",
       "name": "南宁师范大学",
-      "province": "广西",
+      "province": "",
       "city": "南宁市",
       "level": "普通本科",
       "type": "师范",
@@ -6103,7 +6103,7 @@
     {
       "id": "600179",
       "name": "南宁师范大学师园学院[独立学院]",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -6113,7 +6113,7 @@
     {
       "id": "468753",
       "name": "南宁学院",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6133,7 +6133,7 @@
     {
       "id": "769073",
       "name": "南通理工学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -6303,7 +6303,7 @@
     {
       "id": "126895",
       "name": "宁波财经学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -6313,7 +6313,7 @@
     {
       "id": "965270",
       "name": "宁波大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "综合",
@@ -6323,7 +6323,7 @@
     {
       "id": "833033",
       "name": "宁波大学科学技术学院[独立学院]",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6333,7 +6333,7 @@
     {
       "id": "402001",
       "name": "宁波工程学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -6343,7 +6343,7 @@
     {
       "id": "935700",
       "name": "宁波诺丁汉大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6513,7 +6513,7 @@
     {
       "id": "512320",
       "name": "青岛滨海学院",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6523,7 +6523,7 @@
     {
       "id": "782298",
       "name": "青岛城市学院",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6533,7 +6533,7 @@
     {
       "id": "843839",
       "name": "青岛大学",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "综合",
@@ -6543,7 +6543,7 @@
     {
       "id": "151531",
       "name": "青岛工学院",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6553,7 +6553,7 @@
     {
       "id": "968287",
       "name": "青岛恒星科技学院",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -6563,7 +6563,7 @@
     {
       "id": "706599",
       "name": "青岛黄海学院",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -6573,7 +6573,7 @@
     {
       "id": "812037",
       "name": "青岛科技大学",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -6583,7 +6583,7 @@
     {
       "id": "813855",
       "name": "青岛理工大学",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -6593,7 +6593,7 @@
     {
       "id": "603035",
       "name": "青岛农业大学",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "农林",
@@ -6603,7 +6603,7 @@
     {
       "id": "426474",
       "name": "青岛农业大学海都学院[独立学院]",
-      "province": "山东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "农林",
@@ -6683,7 +6683,7 @@
     {
       "id": "841728",
       "name": "曲靖师范学院",
-      "province": "云南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -6693,7 +6693,7 @@
     {
       "id": "977205",
       "name": "泉州师范学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -6703,7 +6703,7 @@
     {
       "id": "182526",
       "name": "泉州信息工程学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7593,7 +7593,7 @@
     {
       "id": "382036",
       "name": "深圳大学",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7603,7 +7603,7 @@
     {
       "id": "398771",
       "name": "沈阳城市建设学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7613,7 +7613,7 @@
     {
       "id": "649862",
       "name": "沈阳城市学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7623,7 +7623,7 @@
     {
       "id": "932831",
       "name": "沈阳大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7633,7 +7633,7 @@
     {
       "id": "959217",
       "name": "沈阳工程学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7643,7 +7643,7 @@
     {
       "id": "901577",
       "name": "沈阳工学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7653,7 +7653,7 @@
     {
       "id": "171677",
       "name": "沈阳工业大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -7663,7 +7663,7 @@
     {
       "id": "287426",
       "name": "沈阳航空航天大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "航空",
@@ -7673,7 +7673,7 @@
     {
       "id": "861201",
       "name": "沈阳化工大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -7683,7 +7683,7 @@
     {
       "id": "528132",
       "name": "沈阳建筑大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7693,7 +7693,7 @@
     {
       "id": "669629",
       "name": "沈阳科技学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7703,7 +7703,7 @@
     {
       "id": "750388",
       "name": "沈阳理工大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7713,7 +7713,7 @@
     {
       "id": "838867",
       "name": "沈阳农业大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "农林",
@@ -7723,7 +7723,7 @@
     {
       "id": "485833",
       "name": "沈阳师范大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -7733,7 +7733,7 @@
     {
       "id": "494417",
       "name": "沈阳体育学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "体育",
@@ -7743,7 +7743,7 @@
     {
       "id": "937229",
       "name": "沈阳药科大学",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "综合",
@@ -7753,7 +7753,7 @@
     {
       "id": "761367",
       "name": "沈阳医学院",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -7763,7 +7763,7 @@
     {
       "id": "913444",
       "name": "石河子大学",
-      "province": "新疆",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "综合",
@@ -7773,7 +7773,7 @@
     {
       "id": "966289",
       "name": "石家庄铁道大学",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7783,7 +7783,7 @@
     {
       "id": "841123",
       "name": "石家庄铁道大学(地方专项计划)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7793,7 +7793,7 @@
     {
       "id": "244558",
       "name": "石家庄铁道大学(工程教育实验班)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7803,7 +7803,7 @@
     {
       "id": "185847",
       "name": "石家庄铁道大学(少数民族预科班)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "民族",
@@ -7813,7 +7813,7 @@
     {
       "id": "269303",
       "name": "石家庄铁道大学四方学院[独立学院]",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -7823,7 +7823,7 @@
     {
       "id": "738902",
       "name": "石家庄学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8003,7 +8003,7 @@
     {
       "id": "516123",
       "name": "苏州大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "综合",
@@ -8013,7 +8013,7 @@
     {
       "id": "826576",
       "name": "苏州大学应用技术学院[独立学院]",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8023,7 +8023,7 @@
     {
       "id": "722989",
       "name": "苏州科技大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8073,7 +8073,7 @@
     {
       "id": "381010",
       "name": "太原工业学院",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8103,7 +8103,7 @@
     {
       "id": "696282",
       "name": "太原师范学院",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -8113,7 +8113,7 @@
     {
       "id": "668667",
       "name": "太原学院",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8143,7 +8143,7 @@
     {
       "id": "778515",
       "name": "唐山师范学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -8153,7 +8153,7 @@
     {
       "id": "935527",
       "name": "唐山学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8383,7 +8383,7 @@
     {
       "id": "729614",
       "name": "天水师范学院",
-      "province": "甘肃",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -8483,7 +8483,7 @@
     {
       "id": "506810",
       "name": "温州大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8493,7 +8493,7 @@
     {
       "id": "834034",
       "name": "温州肯恩大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8503,7 +8503,7 @@
     {
       "id": "777789",
       "name": "温州理工学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8523,7 +8523,7 @@
     {
       "id": "567616",
       "name": "无锡太湖学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8533,7 +8533,7 @@
     {
       "id": "154219",
       "name": "无锡学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8593,7 +8593,7 @@
     {
       "id": "269549",
       "name": "武汉城市学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8603,7 +8603,7 @@
     {
       "id": "973008",
       "name": "武汉大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "985/211",
       "type": "综合",
@@ -8613,7 +8613,7 @@
     {
       "id": "250615",
       "name": "武汉纺织大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8623,7 +8623,7 @@
     {
       "id": "868862",
       "name": "武汉纺织大学外经贸学院[独立学院]",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8633,7 +8633,7 @@
     {
       "id": "270847",
       "name": "武汉工程大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8643,7 +8643,7 @@
     {
       "id": "709694",
       "name": "武汉工程大学邮电与信息工程学院[独立学院]",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8653,7 +8653,7 @@
     {
       "id": "465861",
       "name": "武汉华夏理工学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8663,7 +8663,7 @@
     {
       "id": "639470",
       "name": "武汉科技大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8673,7 +8673,7 @@
     {
       "id": "146937",
       "name": "武汉理工大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "理工",
@@ -8683,7 +8683,7 @@
     {
       "id": "176509",
       "name": "武汉轻工大学",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8693,7 +8693,7 @@
     {
       "id": "334353",
       "name": "武汉晴川学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8703,7 +8703,7 @@
     {
       "id": "250293",
       "name": "武汉生物工程学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8713,7 +8713,7 @@
     {
       "id": "827028",
       "name": "武汉体育学院体育科技学院[独立学院]",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8723,7 +8723,7 @@
     {
       "id": "542559",
       "name": "武汉文理学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8733,7 +8733,7 @@
     {
       "id": "989180",
       "name": "武汉学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8753,7 +8753,7 @@
     {
       "id": "216584",
       "name": "西安财经大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -8763,7 +8763,7 @@
     {
       "id": "770453",
       "name": "西安电子科技大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "理工",
@@ -8773,7 +8773,7 @@
     {
       "id": "403390",
       "name": "西安工程大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8783,7 +8783,7 @@
     {
       "id": "298933",
       "name": "西安工商学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -8793,7 +8793,7 @@
     {
       "id": "328698",
       "name": "西安工业大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8803,7 +8803,7 @@
     {
       "id": "586403",
       "name": "西安航空学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "航空",
@@ -8813,7 +8813,7 @@
     {
       "id": "303071",
       "name": "西安建筑科技大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8823,7 +8823,7 @@
     {
       "id": "849213",
       "name": "西安建筑科技大学华清学院[独立学院]",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8833,7 +8833,7 @@
     {
       "id": "247959",
       "name": "西安交通大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "985/211",
       "type": "理工",
@@ -8843,7 +8843,7 @@
     {
       "id": "471088",
       "name": "西安交通大学城市学院[独立学院]",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8853,7 +8853,7 @@
     {
       "id": "191463",
       "name": "西安交通工程学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8863,7 +8863,7 @@
     {
       "id": "567224",
       "name": "西安科技大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8873,7 +8873,7 @@
     {
       "id": "337385",
       "name": "西安科技大学高新学院[独立学院]",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8883,7 +8883,7 @@
     {
       "id": "900551",
       "name": "西安理工大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "理工",
@@ -8893,7 +8893,7 @@
     {
       "id": "491545",
       "name": "西安明德理工学院",
-      "province": "陕西",
+      "province": "",
       "city": "西安市",
       "level": "普通本科",
       "type": "理工",
@@ -8903,7 +8903,7 @@
     {
       "id": "234869",
       "name": "西安欧亚学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8913,7 +8913,7 @@
     {
       "id": "460509",
       "name": "西安培华学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8923,7 +8923,7 @@
     {
       "id": "911758",
       "name": "西安汽车职业大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8933,7 +8933,7 @@
     {
       "id": "701871",
       "name": "西安石油大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8943,7 +8943,7 @@
     {
       "id": "280042",
       "name": "西安思源学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8953,7 +8953,7 @@
     {
       "id": "539637",
       "name": "西安外事学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8963,7 +8963,7 @@
     {
       "id": "656422",
       "name": "西安文理学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -8973,7 +8973,7 @@
     {
       "id": "399560",
       "name": "西安信息职业大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -8983,7 +8983,7 @@
     {
       "id": "581533",
       "name": "西安医学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -8993,7 +8993,7 @@
     {
       "id": "334716",
       "name": "西安邮电大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -9003,7 +9003,7 @@
     {
       "id": "392396",
       "name": "西安邮电大学(边防军人子女预科班)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -9013,7 +9013,7 @@
     {
       "id": "531885",
       "name": "西北大学",
-      "province": "陕西",
+      "province": "",
       "city": "西安市",
       "level": "211",
       "type": "综合",
@@ -9033,7 +9033,7 @@
     {
       "id": "746651",
       "name": "西北工业大学",
-      "province": "陕西",
+      "province": "",
       "city": "西安市",
       "level": "985/211",
       "type": "理工",
@@ -9073,7 +9073,7 @@
     {
       "id": "605281",
       "name": "西北政法大学",
-      "province": "陕西",
+      "province": "",
       "city": "西安市",
       "level": "双一流",
       "type": "政法",
@@ -9273,7 +9273,7 @@
     {
       "id": "165100",
       "name": "厦门大学",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "985/211",
       "type": "综合",
@@ -9283,7 +9283,7 @@
     {
       "id": "840743",
       "name": "厦门大学嘉庚学院[独立学院]",
-      "province": "福建",
+      "province": "",
       "city": "漳州市",
       "level": "普通本科",
       "type": "综合",
@@ -9293,7 +9293,7 @@
     {
       "id": "585894",
       "name": "厦门大学(马来西亚分校)",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -9303,7 +9303,7 @@
     {
       "id": "202050",
       "name": "厦门工学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -9313,7 +9313,7 @@
     {
       "id": "456622",
       "name": "厦门华厦学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -9323,7 +9323,7 @@
     {
       "id": "691792",
       "name": "厦门理工学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -9333,7 +9333,7 @@
     {
       "id": "992794",
       "name": "咸阳师范学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -9353,7 +9353,7 @@
     {
       "id": "819726",
       "name": "湘潭大学",
-      "province": "湖南",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "综合",
@@ -9363,7 +9363,7 @@
     {
       "id": "240470",
       "name": "湘潭理工学院",
-      "province": "湖南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -9563,7 +9563,7 @@
     {
       "id": "677377",
       "name": "邢台学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -9573,7 +9573,7 @@
     {
       "id": "935822",
       "name": "徐州工程学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -9983,7 +9983,7 @@
     {
       "id": "302424",
       "name": "运城学院",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10003,7 +10003,7 @@
     {
       "id": "507416",
       "name": "张家口学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10033,7 +10033,7 @@
     {
       "id": "194640",
       "name": "浙大宁波理工学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10263,7 +10263,7 @@
     {
       "id": "525542",
       "name": "郑州财经学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -10273,7 +10273,7 @@
     {
       "id": "221786",
       "name": "郑州大学",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "211",
       "type": "综合",
@@ -10283,7 +10283,7 @@
     {
       "id": "228174",
       "name": "郑州工程技术学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10293,7 +10293,7 @@
     {
       "id": "670198",
       "name": "郑州工商学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -10303,7 +10303,7 @@
     {
       "id": "383872",
       "name": "郑州工业应用技术学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10313,7 +10313,7 @@
     {
       "id": "344739",
       "name": "郑州航空工业管理学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10323,7 +10323,7 @@
     {
       "id": "247406",
       "name": "郑州经贸学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10333,7 +10333,7 @@
     {
       "id": "400704",
       "name": "郑州轻工业大学",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10343,7 +10343,7 @@
     {
       "id": "341007",
       "name": "郑州商学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -10353,7 +10353,7 @@
     {
       "id": "580896",
       "name": "郑州升达经贸管理学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10363,7 +10363,7 @@
     {
       "id": "887786",
       "name": "郑州师范学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -10373,7 +10373,7 @@
     {
       "id": "273778",
       "name": "郑州西亚斯学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10393,7 +10393,7 @@
     {
       "id": "736071",
       "name": "中国传媒大学",
-      "province": "北京",
+      "province": "",
       "city": "北京市",
       "level": "普通本科",
       "type": "艺术",
@@ -10413,7 +10413,7 @@
     {
       "id": "971528",
       "name": "中国地质大学(武汉)",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10433,7 +10433,7 @@
     {
       "id": "743763",
       "name": "中国计量大学",
-      "province": "浙江",
+      "province": "",
       "city": "杭州市",
       "level": "普通本科",
       "type": "综合",
@@ -10443,7 +10443,7 @@
     {
       "id": "869512",
       "name": "中国计量大学现代科技学院[独立学院]",
-      "province": "浙江",
+      "province": "",
       "city": "义乌市",
       "level": "普通本科",
       "type": "理工",
@@ -10503,7 +10503,7 @@
     {
       "id": "581190",
       "name": "中国民航大学",
-      "province": "天津",
+      "province": "",
       "city": "天津市",
       "level": "普通本科",
       "type": "综合",
@@ -10543,7 +10543,7 @@
     {
       "id": "125304",
       "name": "中国人民大学(苏州校区)",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -10733,7 +10733,7 @@
     {
       "id": "917442",
       "name": "珠海科技学院",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -10743,7 +10743,7 @@
     {
       "id": "698090",
       "name": "遵义医科大学",
-      "province": "贵州",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -10783,7 +10783,7 @@
     {
       "id": "435738",
       "name": "大庆师范学院",
-      "province": "黑龙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -10823,7 +10823,7 @@
     {
       "id": "243393",
       "name": "集宁师范学院",
-      "province": "内蒙古",
+      "province": "",
       "city": "乌兰察布市",
       "level": "普通本科",
       "type": "师范",
@@ -10833,7 +10833,7 @@
     {
       "id": "426629",
       "name": "南京艺术学院",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -10883,7 +10883,7 @@
     {
       "id": "903417",
       "name": "西安财经大学行知学院[独立学院]",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -10893,7 +10893,7 @@
     {
       "id": "386996",
       "name": "西安美术学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -10903,7 +10903,7 @@
     {
       "id": "123544",
       "name": "西安外国语大学",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "语言",
@@ -10943,7 +10943,7 @@
     {
       "id": "555775",
       "name": "遵义师范学院",
-      "province": "贵州",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -10973,7 +10973,7 @@
     {
       "id": "196702",
       "name": "常州大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "综合",
@@ -11023,7 +11023,7 @@
     {
       "id": "707116",
       "name": "贵阳康养职业大学",
-      "province": "贵州",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11073,7 +11073,7 @@
     {
       "id": "487398",
       "name": "兰州石化职业技术大学",
-      "province": "甘肃",
+      "province": "",
       "city": "兰州市",
       "level": "普通本科",
       "type": "综合",
@@ -11083,7 +11083,7 @@
     {
       "id": "625405",
       "name": "兰州资源环境职业技术大学",
-      "province": "甘肃",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11093,7 +11093,7 @@
     {
       "id": "566928",
       "name": "南京医科大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "医药",
@@ -11113,7 +11113,7 @@
     {
       "id": "102042",
       "name": "深圳北理莫斯科大学",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11123,7 +11123,7 @@
     {
       "id": "220443",
       "name": "深圳技术大学",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11153,7 +11153,7 @@
     {
       "id": "480525",
       "name": "温州医科大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "医药",
@@ -11163,7 +11163,7 @@
     {
       "id": "656989",
       "name": "武汉商学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -11173,7 +11173,7 @@
     {
       "id": "678360",
       "name": "西安交通大学(中外合作办学)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11183,7 +11183,7 @@
     {
       "id": "912100",
       "name": "厦门医学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -11223,7 +11223,7 @@
     {
       "id": "465489",
       "name": "长春工业大学(八协计划)",
-      "province": "吉林",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11233,7 +11233,7 @@
     {
       "id": "790346",
       "name": "常州大学怀德学院[独立学院]",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11243,7 +11243,7 @@
     {
       "id": "346440",
       "name": "成都体育学院",
-      "province": "四川",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "体育",
@@ -11303,7 +11303,7 @@
     {
       "id": "904594",
       "name": "福州外语外贸学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "语言",
@@ -11383,7 +11383,7 @@
     {
       "id": "284144",
       "name": "呼和浩特民族学院(八协计划)",
-      "province": "内蒙古",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "民族",
@@ -11433,7 +11433,7 @@
     {
       "id": "763665",
       "name": "南京工业职业技术大学",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11553,7 +11553,7 @@
     {
       "id": "596494",
       "name": "武汉传媒学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -11563,7 +11563,7 @@
     {
       "id": "514807",
       "name": "武汉东湖学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11573,7 +11573,7 @@
     {
       "id": "996050",
       "name": "武汉工程科技学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11583,7 +11583,7 @@
     {
       "id": "930323",
       "name": "武汉设计工程学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11593,7 +11593,7 @@
     {
       "id": "834863",
       "name": "武汉体育学院",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "体育",
@@ -11603,7 +11603,7 @@
     {
       "id": "484906",
       "name": "香港珠海学院[香港]",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11643,7 +11643,7 @@
     {
       "id": "270775",
       "name": "运城职业技术大学",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11663,7 +11663,7 @@
     {
       "id": "252771",
       "name": "成都文理学院",
-      "province": "四川",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11673,7 +11673,7 @@
     {
       "id": "688961",
       "name": "赤峰学院(八协计划)",
-      "province": "内蒙古",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11693,7 +11693,7 @@
     {
       "id": "228711",
       "name": "呼伦贝尔学院(八协计划)",
-      "province": "内蒙古",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11703,7 +11703,7 @@
     {
       "id": "311656",
       "name": "兰州财经大学(八协计划)",
-      "province": "甘肃",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -11733,7 +11733,7 @@
     {
       "id": "778028",
       "name": "青岛电影学院",
-      "province": "山东",
+      "province": "",
       "city": "青岛市",
       "level": "普通本科",
       "type": "综合",
@@ -11773,7 +11773,7 @@
     {
       "id": "868206",
       "name": "保定理工学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11783,7 +11783,7 @@
     {
       "id": "179693",
       "name": "保定学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -11823,7 +11823,7 @@
     {
       "id": "393780",
       "name": "沧州师范学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -11833,7 +11833,7 @@
     {
       "id": "342498",
       "name": "长春汽车职业技术大学",
-      "province": "吉林",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -11843,7 +11843,7 @@
     {
       "id": "213872",
       "name": "成都锦城学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "四川",
+      "province": "",
       "city": "成都市",
       "level": "普通本科",
       "type": "艺术",
@@ -11853,7 +11853,7 @@
     {
       "id": "305140",
       "name": "成都师范学院",
-      "province": "四川",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -11863,7 +11863,7 @@
     {
       "id": "770388",
       "name": "成都外国语学院",
-      "province": "四川",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "语言",
@@ -11923,7 +11923,7 @@
     {
       "id": "170888",
       "name": "大连工业大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -11933,7 +11933,7 @@
     {
       "id": "445127",
       "name": "大连艺术学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -11963,7 +11963,7 @@
     {
       "id": "562758",
       "name": "福州理工学院",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -12013,7 +12013,7 @@
     {
       "id": "917033",
       "name": "广州南方学院",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12023,7 +12023,7 @@
     {
       "id": "260196",
       "name": "广州医科大学",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "双一流",
       "type": "医药",
@@ -12033,7 +12033,7 @@
     {
       "id": "302678",
       "name": "桂林学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12043,7 +12043,7 @@
     {
       "id": "913328",
       "name": "哈尔滨职业技术大学",
-      "province": "黑龙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12073,7 +12073,7 @@
     {
       "id": "693408",
       "name": "杭州医学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -12083,7 +12083,7 @@
     {
       "id": "492223",
       "name": "合肥大学",
-      "province": "安徽",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12223,7 +12223,7 @@
     {
       "id": "943349",
       "name": "嘉兴大学",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12253,7 +12253,7 @@
     {
       "id": "988388",
       "name": "昆明传媒学院",
-      "province": "云南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12323,7 +12323,7 @@
     {
       "id": "207084",
       "name": "南京传媒学院",
-      "province": "江苏",
+      "province": "",
       "city": "南京市",
       "level": "普通本科",
       "type": "艺术",
@@ -12373,7 +12373,7 @@
     {
       "id": "369995",
       "name": "泉州职业技术大学",
-      "province": "福建",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12423,7 +12423,7 @@
     {
       "id": "264904",
       "name": "石家庄学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12483,7 +12483,7 @@
     {
       "id": "405491",
       "name": "唐山工业职业技术大学(合作培养项目)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -12493,7 +12493,7 @@
     {
       "id": "543370",
       "name": "唐山师范学院(国际本科学术互认课程项目)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -12503,7 +12503,7 @@
     {
       "id": "729306",
       "name": "唐山师范学院(合作培养项目)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -12523,7 +12523,7 @@
     {
       "id": "759829",
       "name": "温州商学院",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -12533,7 +12533,7 @@
     {
       "id": "461844",
       "name": "西安翻译学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -12543,7 +12543,7 @@
     {
       "id": "657904",
       "name": "西安工商学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "财经",
@@ -12553,7 +12553,7 @@
     {
       "id": "442617",
       "name": "西安培华学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12623,7 +12623,7 @@
     {
       "id": "219892",
       "name": "邢台学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12633,7 +12633,7 @@
     {
       "id": "509210",
       "name": "邢台医学院",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -12713,7 +12713,7 @@
     {
       "id": "479785",
       "name": "郑州科技学院",
-      "province": "河南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -12723,7 +12723,7 @@
     {
       "id": "640165",
       "name": "中国传媒大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "北京",
+      "province": "",
       "city": "北京市",
       "level": "普通本科",
       "type": "艺术",
@@ -12743,7 +12743,7 @@
     {
       "id": "148693",
       "name": "遵义医科大学医学与科技学院[独立学院]",
-      "province": "贵州",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -12783,7 +12783,7 @@
     {
       "id": "784941",
       "name": "长春光华学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "吉林",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12793,7 +12793,7 @@
     {
       "id": "208526",
       "name": "长春人文学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "吉林",
+      "province": "",
       "city": "长春市",
       "level": "普通本科",
       "type": "艺术",
@@ -12803,7 +12803,7 @@
     {
       "id": "741148",
       "name": "长沙学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "湖南",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12863,7 +12863,7 @@
     {
       "id": "350898",
       "name": "哈尔滨音乐学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "黑龙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -12913,7 +12913,7 @@
     {
       "id": "528359",
       "name": "衡水学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13023,7 +13023,7 @@
     {
       "id": "714460",
       "name": "南昌工学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "江西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13033,7 +13033,7 @@
     {
       "id": "580247",
       "name": "南昌理工学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "江西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -13043,7 +13043,7 @@
     {
       "id": "558241",
       "name": "南京艺术学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "江苏",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13073,7 +13073,7 @@
     {
       "id": "342467",
       "name": "青岛电影学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "山东",
+      "province": "",
       "city": "青岛市",
       "level": "普通本科",
       "type": "艺术",
@@ -13133,7 +13133,7 @@
     {
       "id": "393475",
       "name": "沈阳城市学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "辽宁",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13183,7 +13183,7 @@
     {
       "id": "267445",
       "name": "武汉传媒学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13193,7 +13193,7 @@
     {
       "id": "592095",
       "name": "武汉体育学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13213,7 +13213,7 @@
     {
       "id": "549015",
       "name": "西安工程大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -13223,7 +13223,7 @@
     {
       "id": "530466",
       "name": "西安科技大学高新学院(按高考文化课成绩录取的艺术类专业)[独立学院]",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -13233,7 +13233,7 @@
     {
       "id": "796240",
       "name": "西安美术学院(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13243,7 +13243,7 @@
     {
       "id": "395708",
       "name": "西安外国语大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "语言",
@@ -13253,7 +13253,7 @@
     {
       "id": "539158",
       "name": "西北大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "陕西",
+      "province": "",
       "city": "西安市",
       "level": "普通本科",
       "type": "艺术",
@@ -13323,7 +13323,7 @@
     {
       "id": "632657",
       "name": "长春职业技术大学",
-      "province": "吉林",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -13383,7 +13383,7 @@
     {
       "id": "328063",
       "name": "桂林医科大学",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -13393,7 +13393,7 @@
     {
       "id": "393052",
       "name": "合肥理工学院",
-      "province": "安徽",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -13513,7 +13513,7 @@
     {
       "id": "649830",
       "name": "苏州工学院",
-      "province": "江苏",
+      "province": "",
       "city": "苏州市",
       "level": "普通本科",
       "type": "综合",
@@ -13523,7 +13523,7 @@
     {
       "id": "462389",
       "name": "太原学院(边防军人子女预科班)",
-      "province": "山西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -13533,7 +13533,7 @@
     {
       "id": "445767",
       "name": "唐山工业职业技术大学",
-      "province": "河北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "理工",
@@ -13543,7 +13543,7 @@
     {
       "id": "363676",
       "name": "天水师范大学",
-      "province": "甘肃",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -13553,7 +13553,7 @@
     {
       "id": "298277",
       "name": "乌鲁木齐职业大学",
-      "province": "新疆",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -13563,7 +13563,7 @@
     {
       "id": "192113",
       "name": "西安体育学院",
-      "province": "陕西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "体育",
@@ -13643,7 +13643,7 @@
     {
       "id": "489177",
       "name": "温州医科大学仁济学院[独立学院]",
-      "province": "浙江",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "医药",
@@ -13683,7 +13683,7 @@
     {
       "id": "274386",
       "name": "成都艺术职业大学",
-      "province": "四川",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
@@ -13693,7 +13693,7 @@
     {
       "id": "984623",
       "name": "广州华立学院",
-      "province": "广东",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "综合",
@@ -13773,7 +13773,7 @@
     {
       "id": "672359",
       "name": "桂林师范学院",
-      "province": "广西",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "师范",
@@ -13783,7 +13783,7 @@
     {
       "id": "760576",
       "name": "武汉大学(按高考文化课成绩录取的艺术类专业)",
-      "province": "湖北",
+      "province": "",
       "city": "",
       "level": "普通本科",
       "type": "艺术",
