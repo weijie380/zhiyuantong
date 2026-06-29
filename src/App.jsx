@@ -38,11 +38,13 @@ export default function App() {
     localStorage.setItem('zyt_theme', theme)
   }, [theme])
 
-  // 推荐状态变化时自动保存
+  // 推荐状态变化时自动保存（用函数式更新避免 stale closure）
   const handleRecStateChange = (next) => {
-    if (typeof next === 'function') next = next(recState)
-    setRecState(next)
-    if (user) userInput.save(next)
+    setRecState(prev => {
+      const val = typeof next === 'function' ? next(prev) : next
+      if (user) userInput.save(val)
+      return val
+    })
   }
 
   const onLogin = (username) => { setUser(username); setPage('recommend') }
