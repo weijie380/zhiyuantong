@@ -25,11 +25,13 @@ export default function RecommendPage({ onOpenSchool }) {
   const [result, setResult] = useState(null)
   const [tab, setTab] = useState('reach')
   const [favVersion, setFavVersion] = useState(0)
+  const [limit, setLimit] = useState(50)
+  const PAGE_SIZE = 50
 
   const onGenerate = async () => {
     const userRank = Number(rank)
     if (!userRank || userRank <= 0) return
-    setLoading(true); setResult(null)
+    setLoading(true); setResult(null); setLimit(PAGE_SIZE)
     try {
       const schoolsMap = await loadSchools()
       const flatRecords = await loadMultiYear(subject, YEARS)
@@ -48,6 +50,9 @@ export default function RecommendPage({ onOpenSchool }) {
   }
 
   const items = result ? result[tab] : []
+  const visibleItems = items.slice(0, limit)
+
+  const switchTab = (t) => { setTab(t); setLimit(PAGE_SIZE) }
 
   return (
     <div>
@@ -96,7 +101,7 @@ export default function RecommendPage({ onOpenSchool }) {
       {result && (
         <div style={{ borderBottom: '2px solid var(--color-border)', marginBottom: 'var(--sp-3)' }}>
           {TABS.map(t => (
-            <button key={t.key} onClick={() => setTab(t.key)}
+            <button key={t.key} onClick={() => switchTab(t.key)}
               style={{
                 padding: 'var(--sp-2) var(--sp-4)', border: 'none', background: 'transparent',
                 borderBottom: tab === t.key ? `2px solid ${TAB_COLOR[t.key]}` : '2px solid transparent',
@@ -121,11 +126,21 @@ export default function RecommendPage({ onOpenSchool }) {
           该档位暂无匹配学校
         </div>
       )}
-      {!loading && items.map((item, i) => (
+      {!loading && visibleItems.map((item, i) => (
         <SchoolCard key={`${item.school.id}-${item.major}`} item={item}
           isFav={favorites.has(item.school.id, item.major)}
           onToggleFav={toggleFav} onView={onOpenSchool} />
       ))}
+      {!loading && items.length > limit && (
+        <div style={{ textAlign: 'center', padding: 'var(--sp-4)' }}>
+          <button onClick={() => setLimit(l => l + PAGE_SIZE)}
+            style={{ background: 'var(--color-card)', color: 'var(--color-secondary)',
+              border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)',
+              padding: 'var(--sp-2) var(--sp-6)' }}>
+            加载更多（剩余 {items.length - limit} 条）
+          </button>
+        </div>
+      )}
     </div>
   )
 }

@@ -24,6 +24,11 @@ export async function loadScoreFile(subject, year) {
   if (cache.has(key)) return cache.get(key)
   const res = await fetch(`./data/${key}.json`)
   if (!res.ok) throw new Error(`加载分数线失败: ${key} (${res.status})`)
+  // 防止 SPA fallback 返回 HTML 而非 JSON（缺失年份会被重定向到 index.html）
+  const ct = res.headers.get('content-type') || ''
+  if (!ct.includes('application/json') && !ct.includes('text/plain')) {
+    throw new Error(`分数线文件不存在: ${key}`)
+  }
   const data = await res.json()
   cache.set(key, data)
   return data
