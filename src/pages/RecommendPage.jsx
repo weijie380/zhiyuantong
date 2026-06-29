@@ -142,7 +142,7 @@ export default function RecommendPage({ savedState, onStateChange, onOpenSchool 
       {result && (
         <div style={{ borderBottom: '2px solid var(--color-border)', marginBottom: 'var(--sp-3)' }}>
           {TABS.map(t => (
-            <button key={t.key} onClick={() => switchTab(t.key)}
+            <button key={t.key} onClick={() => { setTab(t.key); setPage(1) }}
               style={{
                 padding: 'var(--sp-2) var(--sp-4)', border: 'none', background: 'transparent',
                 borderBottom: tab === t.key ? `2px solid ${TAB_COLOR[t.key]}` : '2px solid transparent',
