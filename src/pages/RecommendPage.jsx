@@ -19,13 +19,13 @@ const TAB_BG = {
 }
 
 export default function RecommendPage({ savedState, onStateChange, onOpenSchool }) {
-  const { subject, rank } = savedState
+  const { subject, rank, result, tab } = savedState
   const setSubject = (v) => onStateChange({ ...savedState, subject: v })
   const setRank = (v) => onStateChange({ ...savedState, rank: v })
+  const setResult = (v) => onStateChange({ ...savedState, result: v })
+  const setTab = (v) => onStateChange({ ...savedState, tab: v })
   // 以下状态不需要跨页面持久化
   const [loading, setLoading] = useState(false)
-  const [result, setResult] = useState(null)
-  const [tab, setTab] = useState('reach')
   const [favVersion, setFavVersion] = useState(0)
 
   const onGenerate = async () => {

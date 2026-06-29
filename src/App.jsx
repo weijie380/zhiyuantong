@@ -12,7 +12,7 @@ export default function App() {
   const [theme, setTheme] = useState('light')
 
   // 推荐页状态持久化在 App 层，跨页面切换不丢失
-  const [recState, setRecState] = useState({ subject: 'physics', rank: '' })
+  const [recState, setRecState] = useState({ subject: 'physics', rank: '', result: null, tab: 'reach' })
 
   useEffect(() => {
     const saved = localStorage.getItem('zyt_theme')
