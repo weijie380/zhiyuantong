@@ -28,7 +28,7 @@ export default function App() {
     if (p === 'detail') return page === 'detail' && !!detailId
     return page === p
   }
-  const visibility = (p) => isVisible(p) ? undefined : 'none'
+  const displayStyle = (p) => isVisible(p) ? undefined : 'none'
 
   const activeNav = page === 'detail' ? 'recommend' : page
 
@@ -45,10 +45,10 @@ export default function App() {
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
         </div>
-        <div style={{ visibility: visibility('recommend') }}><RecommendPage onOpenSchool={openSchool} /></div>
-        <div style={{ visibility: visibility('detail') }}><SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /></div>
-        <div style={{ visibility: visibility('search') }}><SearchPage onOpenSchool={openSchool} /></div>
-        <div style={{ visibility: visibility('favorites') }}><FavoritesPage onOpenSchool={openSchool} /></div>
+        <div style={{ display: displayStyle('recommend') }}><RecommendPage onOpenSchool={openSchool} /></div>
+        <div style={{ display: displayStyle('detail') }}><SchoolDetailPage schoolId={detailId} onBack={() => setPage('recommend')} /></div>
+        <div style={{ display: displayStyle('search') }}><SearchPage onOpenSchool={openSchool} /></div>
+        <div style={{ display: displayStyle('favorites') }}><FavoritesPage onOpenSchool={openSchool} /></div>
       </main>
     </div>
   )
