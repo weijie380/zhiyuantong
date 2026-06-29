@@ -80,7 +80,7 @@ export default function SchoolDetailPage({ schoolId, onBack }) {
           <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)' }}>年份</div>
           <select value={year} onChange={e => setYear(Number(e.target.value))}
             style={{ width: '100%', padding: 'var(--sp-2) var(--sp-3)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', background: 'var(--color-card)' }}>
-            {[2020,2021,2022,2023,2024].map(y => <option key={y} value={y}>{y}</option>)}
+            {[2021,2022,2023,2024,2025].map(y => <option key={y} value={y}>{y}</option>)}
           </select>
         </label>
         <label style={{ display: 'flex', alignItems: 'center', gap: 'var(--sp-2)', minWidth: 200 }}>

@@ -5,7 +5,7 @@ import { favorites } from '../lib/storage.js'
 import SchoolCard from '../components/SchoolCard.jsx'
 import Skeleton from '../components/Skeleton.jsx'
 
-const YEARS = [2020, 2021, 2022, 2023, 2024]
+const YEARS = [2021, 2022, 2023, 2024, 2025]
 const TABS = [
   { key: 'reach', label: '冲' },
   { key: 'stable', label: '稳' },

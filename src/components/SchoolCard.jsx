@@ -25,7 +25,7 @@ export default function SchoolCard({ item, isFav, onToggleFav, onView }) {
             <GradientBadge gradient={gradient} />
           </div>
           <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', marginTop: 'var(--sp-1)' }}>
-            {major} · {school.province} · {school.nature}
+            {major}{school.province ? ` · ${school.province}` : ''}{school.nature ? ` · ${school.nature}` : ''}
           </div>
         </div>
         <div style={{ textAlign: 'right', flexShrink: 0 }}>

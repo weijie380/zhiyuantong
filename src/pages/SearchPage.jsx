@@ -6,7 +6,7 @@ import Skeleton from '../components/Skeleton.jsx'
 
 const LEVELS = ['985/211', '双一流', '普通本科']
 const TYPES = ['综合', '理工', '师范', '医药', '财经', '政法']
-const YEAR_OPTS = [2020, 2021, 2022, 2023, 2024]
+const YEAR_OPTS = [2021, 2022, 2023, 2024, 2025]
 
 export default function SearchPage({ onOpenSchool }) {
   const [schools, setSchools] = useState(null)
@@ -41,7 +41,7 @@ export default function SearchPage({ onOpenSchool }) {
 
   const provinces = useMemo(() => {
     if (!schools) return []
-    return [...new Set(schools.map(s => s.province))].sort()
+    return [...new Set(schools.map(s => s.province))].filter(Boolean).sort()
   }, [schools])
 
   const rows = useMemo(() => {
@@ -57,9 +57,9 @@ export default function SearchPage({ onOpenSchool }) {
 
   const columns = [
     { key: 'name', label: '学校', sortable: true, render: r => <span style={{ fontWeight: 600 }}>{r.name}</span> },
-    { key: 'province', label: '地区', sortable: true },
-    { key: 'level', label: '层次', sortable: true },
-    { key: 'type', label: '类型', sortable: true },
+    { key: 'province', label: '地区', sortable: true, render: r => r.province || '—' },
+    { key: 'level', label: '层次', sortable: true, render: r => r.level || '—' },
+    { key: 'type', label: '类型', sortable: true, render: r => r.type || '—' },
     { key: 'minScore', label: `${year}最低分`, sortable: true, numeric: true, render: r => r.minScore ?? '—' },
     { key: 'minRank', label: `${year}最低位次`, sortable: true, numeric: true, render: r => r.minRank != null ? r.minRank.toLocaleString() : '—' },
   ]
