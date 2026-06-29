@@ -33,6 +33,9 @@ export default function App() {
     }
   }, [user])
 
+  // 切换页面时自动回到顶部
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }) }, [page, detailId])
+
   // 主题应用
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
