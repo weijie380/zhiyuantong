@@ -31,6 +31,7 @@ export default function SearchPage({ onOpenSchool }) {
       const bySchool = {}
       for (const r of file.records) {
         if (r.minRank == null) continue
+        if (r.minRankEstimated) continue  // 跳过估算位次
         if (!bySchool[r.schoolId] || r.minRank < bySchool[r.schoolId].minRank)
           bySchool[r.schoolId] = { minRank: r.minRank, minScore: r.minScore }
       }

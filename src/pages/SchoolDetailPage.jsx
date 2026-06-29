@@ -34,7 +34,11 @@ export default function SchoolDetailPage({ schoolId, onBack }) {
     { key: 'minScore', label: '最低分', sortable: true, numeric: true },
     { key: 'maxScore', label: '最高分', sortable: true, numeric: true },
     { key: 'avgScore', label: '平均分', sortable: true, numeric: true },
-    { key: 'minRank', label: '最低位次', sortable: true, numeric: true, render: r => r.minRank?.toLocaleString() ?? '—' },
+    { key: 'minRank', label: '最低位次', sortable: true, numeric: true, render: r => {
+      if (r.minRank == null) return '—'
+      const prefix = r.minRankEstimated ? '~' : ''
+      return prefix + r.minRank.toLocaleString()
+    }},
     { key: 'planNum', label: '计划数', numeric: true, render: r => r.planNum ?? '—' },
   ]
   if (rankNum) {

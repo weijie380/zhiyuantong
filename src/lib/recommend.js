@@ -31,9 +31,12 @@ export function classifyGradient(userRank, baseRank) {
 }
 
 // 将分片记录按 "schoolId:majorCode" 聚合成多年数组
+// 过滤掉估算位次（minRankEstimated: true），只保留官方真实位次
 export function aggregateRecords(records) {
   const map = {}
   for (const r of records) {
+    // 跳过估算位次——经实测估算值与真实值差几个数量级，严重失真
+    if (r.minRankEstimated) continue
     const key = `${r.schoolId}:${r.majorCode || r.major}`
     if (!map[key]) map[key] = { schoolId: r.schoolId, major: r.major, majorCode: r.majorCode, years: [] }
     map[key].years.push({ year: r.year, minRank: r.minRank, minScore: r.minScore })
@@ -68,13 +71,14 @@ export function recommend({ userRank, subject, records5y, schools }) {
       userRank,
       ratio,
       probability,
+      yearsCount: agg.years.length,
       years: agg.years.sort((a, b) => a.year - b.year),
     }
     result[gradient].push(item)
   }
-  // 每档按概率降序（录取概率高的排前）
+  // 每档排序：先按数据年份数降序（多年数据更可信），再按概率降序
   for (const g of ['reach', 'stable', 'safe']) {
-    result[g].sort((a, b) => b.probability - a.probability)
+    result[g].sort((a, b) => b.yearsCount - a.yearsCount || b.probability - a.probability)
   }
   return result
 }
