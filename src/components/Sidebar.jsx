@@ -1,4 +1,4 @@
-import { Sparkles, Search, Star, GraduationCap } from 'lucide-react'
+import { Sparkles, Search, Star, GraduationCap, LogOut } from 'lucide-react'
 
 const NAV = [
   { key: 'recommend', label: '智能推荐', icon: Sparkles },
@@ -6,7 +6,7 @@ const NAV = [
   { key: 'favorites', label: '我的收藏', icon: Star },
 ]
 
-export default function Sidebar({ active, onNavigate }) {
+export default function Sidebar({ active, onNavigate, user, onLogout }) {
   return (
     <aside style={{
       width: 200, flexShrink: 0, background: 'var(--color-card)',
@@ -32,6 +32,26 @@ export default function Sidebar({ active, onNavigate }) {
           {label}
         </button>
       ))}
+
+      {/* 用户信息 + 登出，底部固定 */}
+      <div style={{ marginTop: 'auto', paddingTop: 'var(--sp-4)', borderTop: '1px solid var(--color-border)' }}>
+        <div style={{ fontSize: 'var(--fs-12)', color: 'var(--color-muted-foreground)', marginBottom: 'var(--sp-2)' }}>
+          当前用户
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 'var(--sp-2)' }}>
+          <span style={{ fontSize: 'var(--fs-14)', fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            {user}
+          </span>
+          <button onClick={onLogout} title="登出"
+            style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+              background: 'none', border: 'none', color: 'var(--color-muted-foreground)',
+              width: 32, height: 32, padding: 0, minHeight: 32, flexShrink: 0 }}
+            onMouseEnter={e => e.currentTarget.style.color = 'var(--color-destructive)'}
+            onMouseLeave={e => e.currentTarget.style.color = 'var(--color-muted-foreground)'}>
+            <LogOut size={16} />
+          </button>
+        </div>
+      </div>
     </aside>
   )
 }
