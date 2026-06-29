@@ -25,7 +25,7 @@ export default function App() {
   const openSchool = (id) => { setDetailId(id); setPage('detail') }
 
   const isDetail = page === 'detail' && detailId
-  const show = (p) => ({ display: page === p || (p === 'recommend' && isDetail) ? undefined : 'none' })
+  const show = (p) => ({ display: page === p ? undefined : 'none' })
 
   return (
     <div style={{ display: 'flex', minHeight: '100dvh', background: 'var(--color-background)' }}>
